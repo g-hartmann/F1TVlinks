@@ -86,7 +86,7 @@ function generateLink() {
     if (year > 2017) {
         final_link = link_start + year + "/" + loc + "-grand-prix/" + year + "-" + loc + "-grand-prix-" + session;
     } else {
-        final_link = "https://f1tv.formula1.com/en/episode/" + year + loc + "-grand-prix"
+        final_link = "https://f1tv.formula1.com/en/episode/" + year + "-" + loc + "-grand-prix"
     }
     copyToClipboard(final_link);
 }
