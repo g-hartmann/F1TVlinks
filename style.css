@@ -1,0 +1,34 @@
+#genButton {
+    font-size: 3em;
+    border-radius: .8em;
+    border-style: None;
+    padding: .3em;
+    padding-left: .5em;
+    padding-right: .5em;
+    color: #fff;
+    background-color: #242433;
+    border-top-left-radius: 0;
+}
+
+.dropdown {
+    color: #e10600;
+    border-radius: .5em;
+    padding: .2em;
+    border-style: solid;
+    border-color:  #242433;
+    border-top-left-radius: 0px;
+    font-size: large;
+}
+
+#items {
+    color: #e10600;
+    background-color: #b8b8bb;
+    transform: skew(20deg);
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.col-sm-4 {
+    transform: skew(-20deg);
+
+}

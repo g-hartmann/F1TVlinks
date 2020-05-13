@@ -13,33 +13,40 @@
     <script src="script.js"></script>
   </head>
   <body onload="buildPage()">
-    <div class="container">
+    <div class="container" style="width: 100%; background-color: #e10600; padding-bottom: 1em;">
         <div class="row" style="text-align: center;">
-            <h1>Generate F1 TV links</h1>
+            <h1 style="color: #fff;">Generate F1 TV links</h1>
         </div>
       </div>
     <div class="container" style="text-align: center;">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Choose Year</h3>
-            <select id="year_dropdown" onchange="updateLink()">
-            </select>
-          </div>
-          <div class="col-sm-4">
-            <h3>Choose Grand Prix</h3>
-            <select id="loc_dropdown" onchange="updateLink()">
-            </select>
-          </div>
-          <div class="col-sm-4">
-            <h3>Choose session</h3>
-            <select id="session_dropdown" onchange="updateLink()">
-            </select>
-          </div>
+        <div class="row" id="items">
+            <div class="col-sm-4">
+                <div class="item">
+                    <h2>Choose Year</h2>
+                    <select class="dropdown" id="year_dropdown" onchange="updateLink()">
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="item">
+                    <h2>Choose Grand Prix</h2>
+                    <select class="dropdown" id="loc_dropdown" onchange="updateLink()">
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="item">
+                    <h2>Choose session</h2>
+                    <select class="dropdown" id="session_dropdown" onchange="updateLink()">
+                    </select>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container">
+        <div style="height: 3em;"></div>
         <div class="row" style="text-align: center;">
-            <button id=genButton onclick="generateLink()">Copy link to clipboard</button>
+            <button id="genButton" onclick="generateLink()">Copy link to clipboard</button>
         </div>
     </div>
   </body>
