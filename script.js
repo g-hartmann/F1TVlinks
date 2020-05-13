@@ -73,16 +73,16 @@ function buildPage() {
 };
 
 function updateLink() {
-    year = year_dropdown.options[year_dropdown.selectedIndex].value;
-    loc = loc_dropdown.options[loc_dropdown.selectedIndex].value;
-    session = session_dropdown.options[session_dropdown.selectedIndex].value;
     
-    final_link = link_start + year + "/" + loc + "-grand-prix/" + year + "-" + loc + "-grand-prix-" + session;
     console.log(final_link);
     
 }
 
 function generateLink() {
+    year = year_dropdown.options[year_dropdown.selectedIndex].value;
+    loc = loc_dropdown.options[loc_dropdown.selectedIndex].value;
+    session = session_dropdown.options[session_dropdown.selectedIndex].value;
+    final_link = link_start + year + "/" + loc + "-grand-prix/" + year + "-" + loc + "-grand-prix-" + session;
     copyToClipboard(final_link);
 }
 

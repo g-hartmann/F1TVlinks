@@ -1,13 +1,30 @@
 #genButton {
     font-size: 3em;
     border-radius: .8em;
-    border-style: None;
+    border-style: solid;
+    border-color: transparent;
+    border-width: .1em;
     padding: .3em;
     padding-left: .5em;
     padding-right: .5em;
     color: #fff;
     background-color: #242433;
     border-top-left-radius: 0;
+    transition-property: border-top-left-radius, border-radius, border-color, border-style;
+    transition-duration: .3s;
+}
+
+
+#genButton:hover {
+    
+    border-radius: 0em;
+    border-top-left-radius: .8em;
+    border-color: #e10600;
+    
+}
+
+#genButton:active {
+    border-style: inset;
 }
 
 .dropdown {
