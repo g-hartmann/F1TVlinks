@@ -10,7 +10,8 @@
     color: #fff;
     background-color: #242433;
     border-top-left-radius: 0;
-    transition-property: border-top-left-radius, border-radius, border-color, border-style;
+    border-top-right-radius: 0;
+    transition-property: border-top-right-radius, border-top-left-radius, border-radius, border-color, border-style;
     transition-duration: .3s;
 }
 
@@ -19,6 +20,7 @@
     
     border-radius: 0em;
     border-top-left-radius: .8em;
+    border-top-right-radius: .8em;
     border-color: #e10600;
     
 }
