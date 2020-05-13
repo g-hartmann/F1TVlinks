@@ -19,7 +19,8 @@ var locations = {
     "Mexico: Mexico City": "mexican",
     "USA: CoTA": "united-states",
     "Brazil: Interlagos": "brazilian",
-    "Abu Dhabi: Yas Marina": "abu-dhabi"
+    "Abu Dhabi: Yas Marina": "abu-dhabi",
+    "Malaysia: Sepang": "malaysian"
 }
 
 var sessions = {
@@ -82,7 +83,11 @@ function generateLink() {
     year = year_dropdown.options[year_dropdown.selectedIndex].value;
     loc = loc_dropdown.options[loc_dropdown.selectedIndex].value;
     session = session_dropdown.options[session_dropdown.selectedIndex].value;
-    final_link = link_start + year + "/" + loc + "-grand-prix/" + year + "-" + loc + "-grand-prix-" + session;
+    if (year > 2017) {
+        final_link = link_start + year + "/" + loc + "-grand-prix/" + year + "-" + loc + "-grand-prix-" + session;
+    } else {
+        final_link = "https://f1tv.formula1.com/en/episode/" + year + loc + "-grand-prix"
+    }
     copyToClipboard(final_link);
 }
 
