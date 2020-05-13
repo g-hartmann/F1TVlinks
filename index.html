@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>F1TV link generator</title>
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body onload="buildPage()">
+    <div class="container">
+        <div class="row" style="text-align: center;">
+            <h1>Generate F1 TV links</h1>
+        </div>
+      </div>
+    <div class="container" style="text-align: center;">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Choose Year</h3>
+            <select id="year_dropdown" onchange="updateLink()">
+            </select>
+          </div>
+          <div class="col-sm-4">
+            <h3>Choose Grand Prix</h3>
+            <select id="loc_dropdown" onchange="updateLink()">
+            </select>
+          </div>
+          <div class="col-sm-4">
+            <h3>Choose session</h3>
+            <select id="session_dropdown" onchange="updateLink()">
+            </select>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="text-align: center;">
+            <h1><button id=genButton onclick="generateLink()">Copy link to clipboard</button></h1>
+        </div>
+    </div>
+  </body>
+</html>
