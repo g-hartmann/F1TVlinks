@@ -37,6 +37,7 @@
     border-color:  #242433;
     border-top-left-radius: 0px;
     font-size: large;
+    max-width: 15em;
 }
 
 #items {

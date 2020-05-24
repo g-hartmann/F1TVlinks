@@ -1,38 +1,7 @@
-var years = [];
-var locations = {
-    "Australia: Albert Park (Melbourne)": "australian",
-    "Bahrain: Bahrain": "bahrain",
-    "China: Shanghai": "chinese",
-    "Azerbaijan: Baku": "azerbaijan",
-    "Spain: Barcelona": "spanish",
-    "Monaco: Monaco": "monaco",
-    "Canada: Gilles-Villeneuve (Montreal)": "canadian",
-    "France: Paul Ricard (Le Castellet)": "french",
-    "Austria: Red Bull Ring (Spielberg)": "austrian",
-    "Great Britain: Silverstone": "british",
-    "Germany: Hockenheimring": "german",
-    "Hungary: Hungaroring (Mogyorod)": "hungarian",
-    "Belgium: Spa-Franchorchamps": "belgian",
-    "Italy: Monza": "italian",
-    "Singapore: Marina Bay": "singapore",
-    "Japan: Suzuka": "japanese",
-    "Mexico: Mexico City": "mexican",
-    "USA: CoTA": "united-states",
-    "Brazil: Interlagos": "brazilian",
-    "Abu Dhabi: Yas Marina": "abu-dhabi",
-    "Malaysia: Sepang": "malaysian"
-}
-
-var sessions = {
-    "Race": "race",
-    "Qualifying": "qualifying",
-    "Practice 1": "practice-1",
-    "Practice 2": "practice-2",
-    "Practice 3": "practice-3"
-}
-
-var final_link = ""
-const link_start = "https://f1tv.formula1.com/en/archive/"
+$.getJSON('data.json', function(f1data) {
+    F1_DATA = f1data;
+    success: buildPage();
+});
 
 const copyToClipboard = str => {
     const el = document.createElement('textarea');
@@ -44,9 +13,7 @@ const copyToClipboard = str => {
 };
 
 function buildPage() {
-    for (i = 2020; i > 1981; i--) {
-        years.push(i);
-    }
+    var years = [...Object.getOwnPropertyNames(F1_DATA).reverse()];
 
     year_dropdown = document.getElementById("year_dropdown");
     for (i = 0; i < years.length; i++) {
@@ -56,38 +23,71 @@ function buildPage() {
         year_dropdown.appendChild(option)
     }
     
+    
+
+    // for (var yr in F1_DATA) {
+    //     for (var gp in F1_DATA[yr]) {
+
+    //     }
+    // }
+
+    refreshGP();
+    refreshSessions();
+    updateLink();
+};
+
+function refreshGP() {
+    year_locations = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value];
     loc_dropdown = document.getElementById("loc_dropdown");
-    for (i = 0; i < Object.keys(locations).length; i++) {
+    loc_dropdown.innerHTML = '';
+    for (i = 0; i < Object.keys(year_locations).length; i++) {
+        var location = Object.keys(year_locations)[i];
         option = document.createElement("option");
-        option.setAttribute("value", Object.values(locations)[i]);
-        option.innerHTML = Object.keys(locations)[i];
-        loc_dropdown.appendChild(option)
+        option.setAttribute("value", location);
+        var str = location.split("_")[1];
+        var num = location.split("_")[0];
+        var finalStr = ""
+        var splitstr = str.split(" ")
+        for (var substr in splitstr) {
+            finalStr = finalStr + splitstr[substr][0].toUpperCase() + splitstr[substr].slice(1, 999) + " "
+        }
+        splitstr = finalStr.split("-")
+        finalStr = ""
+        for (var substr in splitstr) {
+            finalStr = finalStr + splitstr[substr][0].toUpperCase() + splitstr[substr].slice(1, 999) + "-"
+        }
+        finalStr = num + ": " +finalStr.slice(0, -2)
+        option.innerHTML = finalStr;
+        loc_dropdown.appendChild(option);
     }
 
+    refreshSessions();
+}
+
+function refreshSessions() {
+    location_sessions = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][loc_dropdown.options[loc_dropdown.selectedIndex].value];
     session_dropdown = document.getElementById("session_dropdown");
-    for (i = 0; i < Object.keys(sessions).length; i++) {
+    session_dropdown.innerHTML = '';
+    for (i = Object.keys(location_sessions).length-1; i > 0; i--) {
+        if (Object.values(location_sessions)[i].includes("f3") || Object.values(location_sessions)[i].includes("f2") || Object.values(location_sessions)[i].includes("supercup")) {
+            console.log("Removed", Object.keys(location_sessions)[i]);
+            continue;
+        }
         option = document.createElement("option");
-        option.setAttribute("value", Object.values(sessions)[i]);
-        option.innerHTML = Object.keys(sessions)[i];
-        session_dropdown.appendChild(option)
+        option.setAttribute("value", Object.values(location_sessions)[i]);
+        option.innerHTML = Object.keys(location_sessions)[i];
+        session_dropdown.appendChild(option);
     }
-};
+}
 
 function updateLink() {
     
+    final_link = session_dropdown.options[session_dropdown.selectedIndex].value
     console.log(final_link);
     
 }
 
-function generateLink() {
-    year = year_dropdown.options[year_dropdown.selectedIndex].value;
-    loc = loc_dropdown.options[loc_dropdown.selectedIndex].value;
-    session = session_dropdown.options[session_dropdown.selectedIndex].value;
-    if (year > 2017) {
-        final_link = link_start + year + "/" + loc + "-grand-prix/" + year + "-" + loc + "-grand-prix-" + session;
-    } else {
-        final_link = "https://f1tv.formula1.com/en/episode/" + year + "-" + loc + "-grand-prix"
-    }
+function copyLink() {
     copyToClipboard(final_link);
 }
 

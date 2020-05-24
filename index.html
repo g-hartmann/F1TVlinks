@@ -10,9 +10,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js"></script>    
   </head>
-  <body onload="buildPage()">
+  <body>
     <div class="container" style="width: 100%; background-color: #e10600; padding-bottom: 1em;">
         <div class="row" style="text-align: center;">
             <h1 style="color: #fff;">Generate F1 TV links</h1>
@@ -23,21 +23,21 @@
             <div class="col-sm-4">
                 <div class="item">
                     <h2>Choose Year</h2>
-                    <select class="dropdownmenu" id="year_dropdown" onchange="updateLink()">
+                    <select class="dropdownmenu" id="year_dropdown" onchange="refreshGP(); updateLink();">
                     </select>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="item">
                     <h2>Choose Grand Prix</h2>
-                    <select class="dropdownmenu" id="loc_dropdown" onchange="updateLink()">
+                    <select class="dropdownmenu" id="loc_dropdown" onchange="refreshSessions(); updateLink();">
                     </select>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="item">
                     <h2>Choose session</h2>
-                    <select class="dropdownmenu" id="session_dropdown" onchange="updateLink()">
+                    <select class="dropdownmenu" id="session_dropdown" onchange="updateLink();">
                     </select>
                 </div>
             </div>
@@ -46,7 +46,7 @@
     <div class="container">
         <div style="height: 1em;"></div>
         <div class="row" style="text-align: center;">
-            <button id="genButton" onclick="generateLink()">Copy link to clipboard</button>
+            <button id="genButton" onclick="copyLink()">Copy link to clipboard</button>
         </div>
     </div>
   </body>
