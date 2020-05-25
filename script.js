@@ -69,7 +69,10 @@ function refreshSessions() {
     session_dropdown = document.getElementById("session_dropdown");
     session_dropdown.innerHTML = '';
     for (i = Object.keys(location_sessions).length-1; i > 0; i--) {
-        if (Object.values(location_sessions)[i].includes("f3") || Object.values(location_sessions)[i].includes("f2") || Object.values(location_sessions)[i].includes("supercup")) {
+        if (Object.values(location_sessions)[i].includes("f3") || 
+        Object.values(location_sessions)[i].includes("f2") || 
+        Object.values(location_sessions)[i].includes("supercup") || 
+        Object.values(location_sessions)[i].includes("psc")) {
             console.log("Removed", Object.keys(location_sessions)[i]);
             continue;
         }
