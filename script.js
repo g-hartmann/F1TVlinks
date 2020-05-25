@@ -60,7 +60,6 @@ function refreshGP() {
         option.innerHTML = finalStr;
         loc_dropdown.appendChild(option);
     }
-
     refreshSessions();
 }
 
