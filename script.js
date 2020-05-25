@@ -22,14 +22,6 @@ function buildPage() {
         option.innerHTML = years[i];
         year_dropdown.appendChild(option)
     }
-    
-    
-
-    // for (var yr in F1_DATA) {
-    //     for (var gp in F1_DATA[yr]) {
-
-    //     }
-    // }
 
     refreshGP();
     refreshSessions();
@@ -64,29 +56,43 @@ function refreshGP() {
 }
 
 function refreshSessions() {
+    var conditions = []
+    var options = ["F2", "F3", "Supercup", "PSC"]
+    var filters = []
+    conditions[0] = document.getElementById("f2-checkbox").checked;
+    conditions[1] = document.getElementById("f3-checkbox").checked;
+    conditions[2] = document.getElementById("supercup-checkbox").checked;
+    conditions[3] = conditions[2]
+
+    for (i = 0; i < conditions.length; i++) {
+        if (conditions[i]) {
+            filters[i] = "asdfasdfasdf"
+        } else {
+            filters[i] = options[i]
+        }
+    }
+    console.log("Filters:", filters)
     location_sessions = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][loc_dropdown.options[loc_dropdown.selectedIndex].value];
     session_dropdown = document.getElementById("session_dropdown");
     session_dropdown.innerHTML = '';
-    for (i = Object.keys(location_sessions).length-1; i >= 0; i--) {
-        if (Object.values(location_sessions)[i].includes("f3") || 
-        Object.values(location_sessions)[i].includes("f2") || 
-        Object.values(location_sessions)[i].includes("supercup") || 
-        Object.values(location_sessions)[i].includes("psc")) {
-            console.log("Removed", Object.keys(location_sessions)[i]);
-            continue;
+    loop1:
+        for (i = Object.keys(location_sessions).length-1; i >= 0; i--) {
+            for (j = 0; j < filters.length;j++){
+                if (Object.keys(location_sessions)[i].includes(filters[j])) {
+                    console.log("Removed '", Object.keys(location_sessions)[i], "' based on filters");
+                    continue loop1;
+                }
+            }
+            option = document.createElement("option");
+            option.setAttribute("value", Object.values(location_sessions)[i]);
+            option.innerHTML = Object.keys(location_sessions)[i];
+            session_dropdown.appendChild(option);
         }
-        option = document.createElement("option");
-        option.setAttribute("value", Object.values(location_sessions)[i]);
-        console.log("value", Object.values(location_sessions)[i])
-        option.innerHTML = Object.keys(location_sessions)[i];
-        session_dropdown.appendChild(option);
-    }
 }
 
 function updateLink() {
     
     final_link = session_dropdown.options[session_dropdown.selectedIndex].value
-    console.log(final_link);
     
 }
 

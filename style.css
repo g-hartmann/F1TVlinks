@@ -29,6 +29,18 @@
     border-style: inset;
 }
 
+.chkbox {
+    vertical-align: -5%;
+}
+
+.item select {
+    -o-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+ }
+
 .dropdownmenu {
     color: #e10600;
     border-radius: .5em;
@@ -37,6 +49,18 @@
     border-color:  #242433;
     border-top-left-radius: 0px;
     font-size: large;
+    max-width: 15em;
+}
+
+.chkboxwrap {
+    color: #fff;
+    background-color: #242433;
+    border-radius: .5em;
+    padding: .2em;
+    border-style: solid;
+    border-color:  #242433;
+    border-width: 2px;
+    border-top-left-radius: 0px;
     max-width: 15em;
 }
 
