@@ -57,7 +57,7 @@ function refreshGP() {
 
 function refreshSessions() {
     var conditions = []
-    var options = ["F2", "F3", "Supercup", "PSC"]
+    var options = ["f2", "f3", "supercup", "psc"]
     var filters = []
     conditions[0] = document.getElementById("f2-checkbox").checked;
     conditions[1] = document.getElementById("f3-checkbox").checked;
@@ -75,19 +75,19 @@ function refreshSessions() {
     location_sessions = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][loc_dropdown.options[loc_dropdown.selectedIndex].value];
     session_dropdown = document.getElementById("session_dropdown");
     session_dropdown.innerHTML = '';
-    loop1:
-        for (i = Object.keys(location_sessions).length-1; i >= 0; i--) {
-            for (j = 0; j < filters.length;j++){
-                if (Object.keys(location_sessions)[i].includes(filters[j])) {
-                    console.log("Removed '", Object.keys(location_sessions)[i], "' based on filters");
-                    continue loop1;
-                }
+    outerloop:
+    for (i = Object.keys(location_sessions).length-1; i >= 0; i--) {
+        for (j = 0; j < filters.length;j++){
+            if (Object.keys(location_sessions)[i].toLowerCase().includes(filters[j])) {
+                console.log("Removed '", Object.keys(location_sessions)[i], "' based on filters");
+                continue outerloop;
             }
-            option = document.createElement("option");
-            option.setAttribute("value", Object.values(location_sessions)[i]);
-            option.innerHTML = Object.keys(location_sessions)[i];
-            session_dropdown.appendChild(option);
         }
+        option = document.createElement("option");
+        option.setAttribute("value", Object.values(location_sessions)[i]);
+        option.innerHTML = Object.keys(location_sessions)[i];
+        session_dropdown.appendChild(option);
+    }
 }
 
 function updateLink() {
