@@ -68,7 +68,7 @@ function refreshSessions() {
     location_sessions = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][loc_dropdown.options[loc_dropdown.selectedIndex].value];
     session_dropdown = document.getElementById("session_dropdown");
     session_dropdown.innerHTML = '';
-    for (i = Object.keys(location_sessions).length-1; i > 0; i--) {
+    for (i = Object.keys(location_sessions).length-1; i >= 0; i--) {
         if (Object.values(location_sessions)[i].includes("f3") || 
         Object.values(location_sessions)[i].includes("f2") || 
         Object.values(location_sessions)[i].includes("supercup") || 
@@ -78,6 +78,7 @@ function refreshSessions() {
         }
         option = document.createElement("option");
         option.setAttribute("value", Object.values(location_sessions)[i]);
+        console.log("value", Object.values(location_sessions)[i])
         option.innerHTML = Object.keys(location_sessions)[i];
         session_dropdown.appendChild(option);
     }
