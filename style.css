@@ -6,26 +6,25 @@ body {
     font-size: 3em;
     border-radius: .8em;
     border-style: solid;
-    border-color: #b8b8bb;
     border-width: .1em;
     padding: .3em;
     padding-left: .5em;
     padding-right: .5em;
-    color: #e10600;
     background-color: #fff;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     transition-property: border-top-right-radius, border-top-left-radius, border-radius, border-color, border-style, color;
     transition-duration: .3s;
+    border-color: #e10600;
+    color: #242433;
 }
 
 #genButton:hover {
-    
     border-radius: 0em;
     border-top-left-radius: .8em;
     border-top-right-radius: .8em;
-    border-color: #e10600;
-    color: #242433;
+    color: #e10600;
+    border-color: #b8b8bb;
 }
 
 #genButton:active {
@@ -45,11 +44,11 @@ body {
  }
 
 .dropdownmenu {
-    color: #e10600;
+    color: #15151e;
     border-radius: .5em;
     padding: .2em;
     border-style: solid;
-    border-color:  #242433;
+    border-color:  #e10600;
     border-top-left-radius: 0px;
     font-size: large;
     max-width: 15em;
