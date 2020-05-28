@@ -2,19 +2,22 @@
     font-size: 3em;
     border-radius: .8em;
     border-style: solid;
-    border-color: transparent;
+    border-color: #b8b8bb;
     border-width: .1em;
     padding: .3em;
     padding-left: .5em;
     padding-right: .5em;
-    color: #fff;
-    background-color: #242433;
+    color: #e10600;
+    background-color: #fff;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    transition-property: border-top-right-radius, border-top-left-radius, border-radius, border-color, border-style;
+    transition-property: border-top-right-radius, border-top-left-radius, border-radius, border-color, border-style, color;
     transition-duration: .3s;
 }
 
+body {
+    background-color: #242433;
+}
 
 #genButton:hover {
     
@@ -22,7 +25,7 @@
     border-top-left-radius: .8em;
     border-top-right-radius: .8em;
     border-color: #e10600;
-    
+    color: #242433;
 }
 
 #genButton:active {
@@ -65,10 +68,16 @@
 }
 
 #items {
-    color: #e10600;
+    color: #15151e;
     background-color: #b8b8bb;
     transform: skew(20deg);
     padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+#header {
+    width: 100%; 
+    background-color: #15151e; 
     padding-bottom: 1em;
 }
 

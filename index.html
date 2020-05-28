@@ -13,7 +13,7 @@
     <script src="script.js"></script>    
   </head>
   <body>
-    <div class="container" style="width: 100%; background-color: #e10600; padding-bottom: 1em;">
+    <div class="container" id="header">
         <div class="row" style="text-align: center;">
             <h1 style="color: #fff;">Fast F1 TV links</h1>
         </div>
@@ -22,21 +22,21 @@
         <div class="row" id="items">
             <div class="col-sm-4">
                 <div class="item">
-                    <h2>Choose Year</h2>
+                    <h2>Year</h2>
                     <select class="dropdownmenu" id="year_dropdown" onchange="refreshGP(); updateLink();">
                     </select>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="item">
-                    <h2>Choose Grand Prix</h2>
+                    <h2>Grand Prix</h2>
                     <select class="dropdownmenu" id="loc_dropdown" onchange="refreshSessions(); updateLink();">
                     </select>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="item">
-                    <h2>Choose session</h2>
+                    <h2>Session</h2>
                     <select class="dropdownmenu" id="session_dropdown" onchange="updateLink();">
                     </select>
                     <br>
