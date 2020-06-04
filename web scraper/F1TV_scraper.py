@@ -118,7 +118,9 @@ for year_button in html_btns_year_select:
         print_red("button " + year_button.find_element_by_xpath('..').get_attribute("id") + " not clickable")
     sleep(5)
     DRIVER.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    sleep(7)
+    sleep(6)
+    DRIVER.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    sleep(6)
     
     gp_elems = DRIVER.find_elements_by_class_name(HTMLATTR_GP_ELEM_WRAPPER)
     order_counter = 0  
@@ -160,12 +162,12 @@ for year_button in html_btns_year_select:
                 aux_driver = webdriver.Chrome(options=options)
                 aux_driver.get(BASE_URL)
                 add_cookies_to_driver(aux_driver)
-                sleep(2)
+                sleep(3)
                 aux_driver.get(elem_url)
-                sleep(8)
+                sleep(10)
                 aux_driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 print_green("scrolled down...")
-                sleep(2)
+                sleep(4)
                 
                 # Find and click all "View more"-buttons.
                 btnFound = True
@@ -178,8 +180,8 @@ for year_button in html_btns_year_select:
                         btnFound = False
                         continue
                     aux_driver.execute_script("arguments[0].click();", viewmore_button)
-                    sleep(0.5)
-
+                    sleep(1)
+                sleep(1)
                 process_replays(HTML_REPLAY_POST2018, aux_driver)
                 aux_driver.quit()
                 sleep(1)
