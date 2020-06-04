@@ -1,6 +1,6 @@
 {
     "2019": {
-        "0_pre-season testing 2019": {
+        "1_pre-season testing 2019": {
             "2019 Pre-Season Testing: What we learned": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-what-we-learned",
             "Paddock Pass: 2019 Pre-Season Testing, Week 2": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-week-2-paddock-pass",
             "2019 Pre-Season Testing: Day 8, Tech Talk": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-8-tech-talk",
@@ -19,7 +19,6 @@
             "2019 Pre-Season Testing: Day 3, Highlights": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-3-highlights",
             "2019 Pre-Season Testing: Day 2, Review Show": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-2-review-show",
             "2019 Pre-Season Testing: Day 2, Highlights": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-2-highlights",
-            "2019 Pre-Season Testing: Day 1, Review Show": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-1-review-show",
             "Pre-Season Testing Day 4, Session 1": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-4-session-1",
             "Pre-Season Testing Day 3, Session 2": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-3-session-2",
             "Pre-Season Testing Day 3, Session 1": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-3-session-1",
@@ -28,7 +27,7 @@
             "Pre-Season Testing Day 1, Session 2": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-1-session-2",
             "Pre-Season Testing Day 1, Session 1": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-1-session-1"
         },
-        "1_australian": {
+        "2_australian": {
             "TECH TALK - Australia": "https://f1tv.formula1.com/en/episode/tech-talk-2019-australia",
             "FIA Thursday Press Conference - Australia": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-australia",
             "WEEKEND DEBRIEF - Australia": "https://f1tv.formula1.com/en/episode/2019-australian-grand-prix-weekend-debrief",
@@ -51,7 +50,7 @@
             "Australia Practice 2": "https://f1tv.formula1.com/en/archive/2019/australian-grand-prix/2019-australian-grand-prix-practice-2",
             "Australia Practice 1": "https://f1tv.formula1.com/en/archive/2019/australian-grand-prix/2019-australian-grand-prix-practice-1"
         },
-        "2_bahrain": {
+        "3_bahrain": {
             "TECH TALK - Bahrain": "https://f1tv.formula1.com/en/episode/tech-talk-2019-bahrain",
             "JOLYON PALMER'S ANALYSIS - Bahrain": "https://f1tv.formula1.com/en/episode/jolyon-palmer-analysis-bahrain",
             "WEEKEND DEBRIEF - Bahrain": "https://f1tv.formula1.com/en/episode/2019-bahrain-grand-prix-weekend-debrief",
@@ -80,7 +79,7 @@
             "Bahrain Practice 1": "https://f1tv.formula1.com/en/archive/2019/bahrain-grand-prix/2019-bahrain-grand-prix-practice-1",
             "Bahrain F2 Practice": "https://f1tv.formula1.com/en/archive/2019/bahrain-grand-prix/f2-practice"
         },
-        "3_chinese": {
+        "4_chinese": {
             "TECH TALK - China": "https://f1tv.formula1.com/en/episode/tech-talk-2019-china",
             "JOLYON PALMER'S ANALYSIS - China": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-china",
             "WEEKEND DEBRIEF - China": "https://f1tv.formula1.com/en/episode/weekend-debrief-china",
@@ -103,7 +102,7 @@
             "China Practice 2": "https://f1tv.formula1.com/en/archive/2019/chinese-grand-prix/2019-chinese-grand-prix-practice-2",
             "China Practice 1": "https://f1tv.formula1.com/en/archive/2019/chinese-grand-prix/2019-chinese-grand-prix-practice-1"
         },
-        "4_azerbaijan": {
+        "5_azerbaijan": {
             "TECH TALK - Azerbaijan": "https://f1tv.formula1.com/en/episode/tech-talk-2019-azerbaijan",
             "JOLYON PALMER'S ANALYSIS - Azerbaijan": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-azerbaijan",
             "WEEKEND DEBRIEF - Azerbaijan": "https://f1tv.formula1.com/en/episode/weekend-debrief-azerbaijan",
@@ -133,7 +132,7 @@
             "Azerbaijan F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/azerbaijan-grand-prix/2019-azerbaijan-grand-prix-practice-1",
             "Azerbaijan F2 Practice": "https://f1tv.formula1.com/en/archive/2019/azerbaijan-grand-prix/azerbaijan-2019-f2-practice"
         },
-        "5_spanish": {
+        "6_spanish": {
             "TECH TALK - Spain": "https://f1tv.formula1.com/en/episode/tech-talk-2019-spain",
             "JOLYON PALMER'S ANALYSIS - Spain": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-spain",
             "WEEKEND DEBRIEF - Spain": "https://f1tv.formula1.com/en/episode/weekend-debrief-spain",
@@ -177,7 +176,7 @@
             "Spain F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/spanish-grand-prix/2019-spanish-grand-prix-practice-1",
             "Spain F3 Practice": "https://f1tv.formula1.com/en/archive/2019/spanish-grand-prix/spain-2019-f3-practice"
         },
-        "6_monaco": {
+        "7_monaco": {
             "TECH TALK - Monaco": "https://f1tv.formula1.com/en/episode/tech-talk-2019-monaco",
             "Hamilton's Tyre Drama": "https://f1tv.formula1.com/en/episode/hamiltons-tyre-drama",
             "JOLYON PALMER'S ANALYSIS - Monaco": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-monaco",
@@ -203,7 +202,6 @@
             "F2: Post Qualifying Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/f2-post-qualifying-press-conference-monaco",
             "FIA Thursday Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-monaco",
             "PRACTICE 1 HIGHLIGHTS - Monaco": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-monaco",
-            "FIA Wednesday Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/fia-wednesday-press-conference-monaco",
             "Monaco Race": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-grand-prix-race",
             "Monaco Supercup Race": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-supercup-race",
             "Monaco F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-f2-sprint-race",
@@ -217,7 +215,7 @@
             "Monaco F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-grand-prix-practice-1",
             "Monaco F2 Practice": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-f2-practice"
         },
-        "7_canadian": {
+        "8_canadian": {
             "TECH TALK - Canada": "https://f1tv.formula1.com/en/episode/tech-talk-2019-canada",
             "JOLYON PALMER'S ANALYSIS - Canada": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-canada",
             "WEEKEND DEBRIEF - Canada": "https://f1tv.formula1.com/en/episode/weekend-debrief-canada",
@@ -242,7 +240,7 @@
             "Canada Practice 2": "https://f1tv.formula1.com/en/archive/2019/canadian-grand-prix/2019-canadian-grand-prix-practice-2",
             "Canada Practice 1": "https://f1tv.formula1.com/en/archive/2019/canadian-grand-prix/2019-canadian-grand-prix-practice-1"
         },
-        "8_french": {
+        "9_french": {
             "TECH TALK - France": "https://f1tv.formula1.com/en/episode/tech-talk-2019-france",
             "JOLYON PALMER'S ANALYSIS - France": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-france",
             "WEEKEND DEBRIEF - France": "https://f1tv.formula1.com/en/episode/weekend-debrief-france",
@@ -282,7 +280,7 @@
             "France F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/french-grand-prix/2019-french-grand-prix-practice-1",
             "France F3 Practice": "https://f1tv.formula1.com/en/archive/2019/french-grand-prix/2019-french-f3-practice"
         },
-        "9_austrian": {
+        "10_austrian": {
             "F2: FEATURE RACE HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/f2-feature-race-highlights-austria",
             "TECH TALK - Austria": "https://f1tv.formula1.com/en/episode/tech-talk-2019-austria",
             "JOLYON PALMER'S ANALYSIS - Austria": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-austria",
@@ -308,7 +306,6 @@
             "FIA Friday Press Conference - Austria": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-austria",
             "PRACTICE 1 HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-austria",
             "PADDOCK PASS: Previewing the Austrian Grand Prix": "https://f1tv.formula1.com/en/episode/paddock-pass-previewing-the-austrian-grand-prix",
-            "FIA Thursday Press Conference - Austria": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-austria",
             "Austria Race": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-grand-prix-race",
             "Austria Supercup Race": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-supercup-race",
             "Austria F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-f2-sprint",
@@ -326,7 +323,7 @@
             "Austria F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-grand-prix-practice-1",
             "Austria F3 Practice": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-f3-practice"
         },
-        "10_british": {
+        "11_british": {
             "TECH TALK - Great Britain": "https://f1tv.formula1.com/en/episode/tech-talk-2019-great-britain",
             "RACE IN 30 - Great Britain": "https://f1tv.formula1.com/en/episode/race-in-30-britain",
             "JOLYON PALMER'S ANALYSIS - Great Britain": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-great-britain",
@@ -367,7 +364,7 @@
             "United Kingdom F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/british-grand-prix/2019-british-grand-prix-practice-1",
             "United Kingdom F3 Practice": "https://f1tv.formula1.com/en/archive/2019/british-grand-prix/2019-british-f3-practice"
         },
-        "11_german": {
+        "12_german": {
             "TECH TALK - Germany": "https://f1tv.formula1.com/en/episode/tech-talk-2019-germany",
             "JOLYON PALMER'S ANALYSIS - Germany": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-germany",
             "WEEKEND DEBRIEF - Germany": "https://f1tv.formula1.com/en/episode/weekend-debrief-germany",
@@ -386,7 +383,6 @@
             "PRACTICE 2 HIGHLIGHTS - Germany": "https://f1tv.formula1.com/en/episode/practice-2-highlights-germany",
             "FIA Friday Press Conference - Germany": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-germany",
             "PRACTICE 1 HIGHLIGHTS - Germany": "https://f1tv.formula1.com/en/episode/practice-1-highlights-germany",
-            "PADDOCK PASS: Pre-race - Germany": "https://f1tv.formula1.com/en/episode/paddock-pass-previewing-the-2019-german-grand-prix",
             "Germany Race": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-grand-prix-race",
             "Germany Supercup Race": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-supercup-race",
             "Germany F1 Qualifying": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-grand-prix-qualifying",
@@ -396,7 +392,7 @@
             "Germany F1 Practice 2": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-grand-prix-practice-2",
             "Germany F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-grand-prix-practice-1"
         },
-        "12_hungarian": {
+        "13_hungarian": {
             "TECH TALK - Hungary": "https://f1tv.formula1.com/en/episode/tech-talk-2019-hungary",
             "WEEKEND DEBRIEF - Hungary": "https://f1tv.formula1.com/en/episode/weekend-debrief-hungary",
             "JOLYON PALMER'S ANALYSIS - Hungary": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-hungary",
@@ -439,7 +435,7 @@
             "Hungary F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/hungarian-grand-prix/2019-hungarian-grand-prix-practice-1",
             "Hungary F3 Practice": "https://f1tv.formula1.com/en/archive/2019/hungarian-grand-prix/2019-hungarian-f3-practice"
         },
-        "13_belgian": {
+        "14_belgian": {
             "TECH TALK - Belgium": "https://f1tv.formula1.com/en/episode/tech-talk-2019-belgium",
             "JOLYON PALMER'S ANALYSIS - Belgium": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-belgium",
             "WEEKEND DEBRIEF - Belgium": "https://f1tv.formula1.com/en/episode/weekend-debrief-belgium",
@@ -479,7 +475,7 @@
             "Belgium F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/belgian-grand-prix/2019-belgian-grand-prix-practice-1",
             "Belgium F3 Practice": "https://f1tv.formula1.com/en/archive/2019/belgian-grand-prix/2019-belgian-f3-practice"
         },
-        "14_italian": {
+        "15_italian": {
             "TECH TALK - Italy": "https://f1tv.formula1.com/en/episode/tech-talk-2019-italy",
             "JOLYON PALMER'S ANALYSIS - Italy": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-italy",
             "WEEKEND DEBRIEF - Italy": "https://f1tv.formula1.com/en/episode/weekend-debrief-italy",
@@ -520,7 +516,7 @@
             "Italy F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/italian-grand-prix/2019-italian-grand-prix-practice-1",
             "Italy F3 Practice": "https://f1tv.formula1.com/en/archive/2019/italian-grand-prix/2019-italian-f3-practice"
         },
-        "15_singapore": {
+        "16_singapore": {
             "TECH TALK - Singapore": "https://f1tv.formula1.com/en/episode/tech-talk-2019-singapore",
             "JOLYON PALMER'S ANALYSIS - Singapore": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-singapore",
             "Weekend Debrief Singapore": "https://f1tv.formula1.com/en/episode/weekend-debrief-singapore",
@@ -543,7 +539,7 @@
             "Singapore Practice 2": "https://f1tv.formula1.com/en/archive/2019/singapore-grand-prix/2019-singapore-grand-prix-practice-2",
             "Singapore Practice 1": "https://f1tv.formula1.com/en/archive/2019/singapore-grand-prix/2019-singapore-grand-prix-practice-1"
         },
-        "16_russian": {
+        "17_russian": {
             "TECH TALK - Russia": "https://f1tv.formula1.com/en/episode/tech-talk-2019-russia",
             "JOLYON PALMER'S ANALYSIS - Russia": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-russia",
             "Weekend Debrief - Russia": "https://f1tv.formula1.com/en/episode/weekend-debrief-russia",
@@ -582,7 +578,7 @@
             "Russian Federation F2 Practice": "https://f1tv.formula1.com/en/archive/2019/russian-grand-prix/2019-russian-grand-prix-f2-practice",
             "Russian Federation F3 Practice": "https://f1tv.formula1.com/en/archive/2019/russian-grand-prix/2019-russian-grand-prix-f3-practice"
         },
-        "17_japanese": {
+        "18_japanese": {
             "JOLYON PALMER'S ANALYSIS - Japan": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-japan",
             "WEEKEND DEBRIEF - Japan": "https://f1tv.formula1.com/en/episode/weekend-debrief-japan",
             "PADDOCK PASS: Post race - Japan": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-japan",
@@ -600,7 +596,7 @@
             "Japan Practice 2": "https://f1tv.formula1.com/en/archive/2019/japanese-grand-prix/2019-japanese-grand-prix-practice-2",
             "Japan Practice 1": "https://f1tv.formula1.com/en/archive/2019/japanese-grand-prix/2019-japanese-grand-prix-practice-1"
         },
-        "18_mexican": {
+        "19_mexican": {
             "TECH TALK - Mexico": "https://f1tv.formula1.com/en/episode/tech-talk-2019-mexico",
             "JOLYON PALMER'S ANALYSIS - Mexico": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-mexico",
             "PORSCHE SUPERCUP HIGHLIGHTS - Mexico": "https://f1tv.formula1.com/en/episode/porsche-supercup-highlights-mexico",
@@ -626,7 +622,7 @@
             "Mexico F1 Practice 2": "https://f1tv.formula1.com/en/archive/2019/mexican-grand-prix/2019-mexican-grand-prix-practice-2",
             "Mexico F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/mexican-grand-prix/2019-mexican-grand-prix-practice-1"
         },
-        "19_united states": {
+        "20_united states": {
             "TECH TALK - USA": "https://f1tv.formula1.com/en/episode/tech-talk-2019-usa",
             "JOLYON PALMER'S ANALYSIS - United States": "https://f1tv.formula1.com/en/episode/palmer-analysis-usa-f1tv",
             "Gasly & Kvyat's tour of NASA's Houston HQ, F1 Originals": "https://f1tv.formula1.com/en/episode/gasly-kvyats-tour-of-nasas-houston-hq-f1-originals",
@@ -652,7 +648,7 @@
             "United States Practice 2": "https://f1tv.formula1.com/en/archive/2019/united-states-grand-prix/2019-united-states-grand-prix-practice-2",
             "United States Practice 1": "https://f1tv.formula1.com/en/archive/2019/united-states-grand-prix/2019-united-states-grand-prix-practice-1"
         },
-        "20_brazilian": {
+        "21_brazilian": {
             "All Access - Episode 6: Alex Albon": "https://f1tv.formula1.com/en/episode/all-access-episode-6-alex-albon",
             "TECH TALK - Brazil": "https://f1tv.formula1.com/en/episode/tech-talk-2019-brazil",
             "JOLYON PALMER'S ANALYSIS - Brazil": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-brazil",
@@ -676,7 +672,7 @@
             "Brazil Practice 2": "https://f1tv.formula1.com/en/archive/2019/brazilian-grand-prix/2019-brazilian-grand-prix-practice-2",
             "Brazil Practice 1": "https://f1tv.formula1.com/en/archive/2019/brazilian-grand-prix/2019-brazilian-grand-prix-practice-1"
         },
-        "21_abu dhabi": {
+        "22_abu dhabi": {
             "TECH TALK - Abu Dhabi": "https://f1tv.formula1.com/en/episode/tech-talk-2019-abu-dhabi",
             "WEEKEND DEBRIEF - Abu Dhabi": "https://f1tv.formula1.com/en/episode/weekend-debrief-abu-dhabi",
             "JOLYON PALMER'S ANALYSIS - Abu Dhabi": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-abu-dhabi",
@@ -1221,9 +1217,49 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2015-malaysian-grand-prix",
             "2015 in Review - Malaysia": "https://f1tv.formula1.com/en/episode/2015-in-review-malaysia"
         },
-        "3_bahrain": {
+        "3_chinese": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-chinese-grand-prix",
+            "2015 in Review - China": "https://f1tv.formula1.com/en/episode/2015-in-review-china"
+        },
+        "4_bahrain": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2015-bahrain-grand-prix",
             "2015 in Review - Bahrain": "https://f1tv.formula1.com/en/episode/2015-in-review-bahrain"
+        },
+        "5_spanish": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-spanish-grand-prix",
+            "2015 in Review - Spain": "https://f1tv.formula1.com/en/episode/2015-in-review-spain"
+        },
+        "6_monaco": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-monaco-grand-prix",
+            "2015 in Review - Monaco": "https://f1tv.formula1.com/en/episode/2015-in-review-monaco"
+        },
+        "7_canadian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-canadian-grand-prix",
+            "2015 in Review - Canada": "https://f1tv.formula1.com/en/episode/2015-in-review-canada"
+        },
+        "8_austrian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-austrian-grand-prix",
+            "2015 in Review - Austria": "https://f1tv.formula1.com/en/episode/2015-in-review-austria"
+        },
+        "9_british": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-british-grand-prix",
+            "2015 in Review - Great Britain": "https://f1tv.formula1.com/en/episode/2015-in-review-great-britain"
+        },
+        "10_hungarian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-hungarian-grand-prix",
+            "2015 in Review - Hungary": "https://f1tv.formula1.com/en/episode/2015-in-review-hungary"
+        },
+        "11_italian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-italian-grand-prix",
+            "2015 in Review - Italy": "https://f1tv.formula1.com/en/episode/2015-in-review-italy"
+        },
+        "12_singapore": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-singapore-grand-prix",
+            "2015 in Review - Singapore": "https://f1tv.formula1.com/en/episode/2015-in-review-singapore"
+        },
+        "13_japanese": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2015-japanese-grand-prix",
+            "2015 in Review - Japan": "https://f1tv.formula1.com/en/episode/2015-in-review-japan"
         }
     },
     "2014": {
@@ -1286,6 +1322,22 @@
         "15_japanese": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2014-japanese-grand-prix",
             "2014 in Review - Japan": "https://f1tv.formula1.com/en/episode/2014-in-review-japan"
+        },
+        "16_russian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2014-russian-grand-prix",
+            "2014 in Review - Russia": "https://f1tv.formula1.com/en/episode/2014-in-review-russia"
+        },
+        "17_united states": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2014-united-states-grand-prix",
+            "2014 in Review - Texas": "https://f1tv.formula1.com/en/episode/2014-in-review"
+        },
+        "18_brazilian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2014-brazilian-grand-prix",
+            "2014 in Review - Brazil": "https://f1tv.formula1.com/en/episode/2014-in-review-brazil"
+        },
+        "19_abu dhabi": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2014-abu-dhabi-grand-prix",
+            "2014 in Review - Abu Dhabi": "https://f1tv.formula1.com/en/episode/2014-in-review-abu-dhabi"
         }
     },
     "2013": {
@@ -1333,40 +1385,118 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2013-belgian-grand-prix",
             "2013 in Review - Belgium": "https://f1tv.formula1.com/en/episode/2013-in-review-belgium"
         },
-        "12_italian": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2013-italian-grand-prix",
-            "2013 in Review - Italy": "https://f1tv.formula1.com/en/episode/2013-in-review-italy"
-        },
-        "13_singapore": {
+        "12_singapore": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2013-singapore-grand-prix",
             "2013 in Review - Singapore": "https://f1tv.formula1.com/en/episode/2013-in-review-singapore"
-        },
-        "14_korean": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2013-korean-grand-prix",
-            "2013 in Review - Korea": "https://f1tv.formula1.com/en/episode/2013-in-review-korea"
-        },
-        "15_japanese": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2013-japanese-grand-prix",
-            "2013 in Review - Japan": "https://f1tv.formula1.com/en/episode/2013-in-review-japan"
-        },
-        "16_indian": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2013-indian-grand-prix",
-            "2013 in Review - India": "https://f1tv.formula1.com/en/episode/2013-in-review-india"
-        },
-        "17_abu dhabi": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2013-abu-dhabi-grand-prix",
-            "2013 in Review - Abu Dhabi": "https://f1tv.formula1.com/en/episode/2013-in-review-abu-dhabi"
-        },
-        "18_united states": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2013-united-state-grand-prix",
-            "2013 in Review - Austin": "https://f1tv.formula1.com/en/episode/2013-in-review-austin"
-        },
-        "19_brazilian": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2013-brazilian-grand-prix",
-            "2013 in Review - Brazil": "https://f1tv.formula1.com/en/episode/2013-in-review-brazil"
         }
     },
-    "": {
+    "2012": {
+        "1_australian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2012-australian-grand-prix",
+            "2012 in Review - Australia": "https://f1tv.formula1.com/en/episode/2012-in-review-australia"
+        },
+        "2_malaysia": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2012-malaysian-grand-prix",
+            "2012 in Review - Malaysia": "https://f1tv.formula1.com/en/episode/2012-in-review-malaysia"
+        },
+        "3_chinese": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2012-chinese-grand-prix",
+            "2012 in Review - China": "https://f1tv.formula1.com/en/episode/2012-in-review-china"
+        },
+        "4_bahrain": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2012-bahrain-grand-prix",
+            "2012 in Review - Bahrain": "https://f1tv.formula1.com/en/episode/2012-in-review-bahrain"
+        },
+        "5_spanish": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2012-spanish-grand-prix",
+            "2012 in Review - Spain": "https://f1tv.formula1.com/en/episode/2012-in-review-spain"
+        },
+        "6_canadian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2012-canadian-grand-prix",
+            "2012 in Review - Canada": "https://f1tv.formula1.com/en/episode/2012-in-review-canada"
+        },
+        "7_european": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2012-european-grand-prix",
+            "2012 in Review - Valencia": "https://f1tv.formula1.com/en/episode/2012-in-review-valencia"
+        }
+    },
+    "2011": {
+        "1_turkish": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-turkish-grand-prix",
+            "2011 in Review - Turkey": "https://f1tv.formula1.com/en/episode/2011-in-review-turkey"
+        },
+        "2_malaysia": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-malaysian-grand-prix",
+            "2011 in Review - Malaysia": "https://f1tv.formula1.com/en/episode/2011-in-review-malaysia"
+        },
+        "3_australian": {
+            "2011 in Review - Australia": "https://f1tv.formula1.com/en/episode/2011-in-review-australia"
+        },
+        "4_chinese": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-chinese-grand-prix",
+            "2011 in Review - China": "https://f1tv.formula1.com/en/episode/2011-in-review-china"
+        },
+        "5_spanish": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-spanish-grand-prix",
+            "2011 in Review - Spain": "https://f1tv.formula1.com/en/episode/2011-in-review-spain"
+        },
+        "6_monaco": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-monaco-grand-prix",
+            "2011 in Review - Monaco": "https://f1tv.formula1.com/en/episode/2011-in-review-monaco"
+        },
+        "7_canadian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-canadian-grand-prix",
+            "2011 in Review - Canada": "https://f1tv.formula1.com/en/episode/2011-in-review-canada"
+        },
+        "8_european": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-europe-grand-prix",
+            "2011 in Review - Europe": "https://f1tv.formula1.com/en/episode/2011-in-review-europe"
+        },
+        "9_british": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-british-grand-prix",
+            "2011 in Review - Britain": "https://f1tv.formula1.com/en/episode/2011-in-review-britain"
+        },
+        "10_german": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-german-grand-prix",
+            "2011 in Review - Germany": "https://f1tv.formula1.com/en/episode/2011-in-review-germany"
+        },
+        "11_hungarian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-hungarian-grand-prix",
+            "2011 in Review - Hungary": "https://f1tv.formula1.com/en/episode/2011-in-review-hungary"
+        },
+        "12_belgian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-belgian-grand-prix",
+            "2011 in Review - Belgium": "https://f1tv.formula1.com/en/episode/2011-in-review-belgium"
+        },
+        "13_italian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-italian-grand-prix",
+            "2011 in Review - Italy": "https://f1tv.formula1.com/en/episode/2011-in-review-italian"
+        },
+        "14_singapore": {
+            "2011 in Review - Singapore": "https://f1tv.formula1.com/en/episode/2011-in-review-singapore"
+        },
+        "15_japanese": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-japanese-grand-prix",
+            "2011 in Review - Japan": "https://f1tv.formula1.com/en/episode/2011-in-review-japan"
+        },
+        "16_korean": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-skorean-grand-prix",
+            "2011 in Review - Korea": "https://f1tv.formula1.com/en/episode/2011-in-review-korea"
+        },
+        "17_indian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-indian-grand-prix",
+            "2011 in Review - India": "https://f1tv.formula1.com/en/episode/2011-in-review-india"
+        },
+        "18_abu dhabi": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-abu-dhabi-grand-prix",
+            "2011 in Review - Abu Dhabi": "https://f1tv.formula1.com/en/episode/2011-in-review-abu-dhabi"
+        },
+        "19_brazilian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-brazilian-grand-prix",
+            "2011 in Review - Brazil": "https://f1tv.formula1.com/en/episode/2011-in-review-brazil"
+        }
+    },
+    "2010": {
         "1_bahrain": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2010-bahrain-grand-prix",
             "2010 in Review - Bahrain": "https://f1tv.formula1.com/en/episode/2010-in-review-bahrain"
@@ -1501,7 +1631,11 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2009-japanese-grand-prix",
             "2009 in Review - Japan": "https://f1tv.formula1.com/en/episode/2009-in-review-japan"
         },
-        "16_abu dhabi": {
+        "16_brazilian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2009-brazilian-grand-prix",
+            "2009 in Review - Brazil": "https://f1tv.formula1.com/en/episode/2009-in-review-brazil"
+        },
+        "17_abu dhabi": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2009-abu-dhabi-grand-prix",
             "2009 in Review - Abu Dhabi": "https://f1tv.formula1.com/en/episode/2009-in-review-abu-dhabi"
         }
@@ -1536,8 +1670,19 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2008-british-grand-prix",
             "2008 in Review - Great Britain": "https://f1tv.formula1.com/en/episode/2008-in-review-great-britain"
         },
-        "10_german": {
-            "2008 in Review - Germany": "https://f1tv.formula1.com/en/episode/2008-in-review-germany"
+        "10_hungarian": {
+            "2008 in Review - Hungary": "https://f1tv.formula1.com/en/episode/2008-in-review-hungary"
+        },
+        "11_belgian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2008-belgian-grand-prix",
+            "2008 in Review - Belgium": "https://f1tv.formula1.com/en/episode/2008-in-review-belgium"
+        },
+        "12_italian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2008-italian-grand-prix",
+            "2008 in Review - Italy": "https://f1tv.formula1.com/en/episode/2008-in-review-italy"
+        },
+        "13_singapore": {
+            "2008 in Review - Singapore": "https://f1tv.formula1.com/en/episode/2008-in-review-singapore"
         }
     },
     "2007": {
@@ -1623,6 +1768,13 @@
         },
         "8_british": {
             "2006 in Review - Great Britain": "https://f1tv.formula1.com/en/episode/2006-in-review-great-britain"
+        },
+        "9_canadian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2006-canadian-grand-prix",
+            "2006 in Review - Canada": "https://f1tv.formula1.com/en/episode/2006-in-review-canada"
+        },
+        "10_united states": {
+            "2006 in Review - Indianapolis": "https://f1tv.formula1.com/en/episode/2006-in-review-indianapolis"
         }
     },
     "2005": {
@@ -1631,6 +1783,59 @@
         },
         "2_malaysian": {
             "2005 in Review - Malaysia": "https://f1tv.formula1.com/en/episode/2005-in-review-malaysia"
+        },
+        "3_bahrain": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2005-bahrain-grand-prix",
+            "2005 in Review - Bahrain": "https://f1tv.formula1.com/en/episode/2005-in-review-bahrain"
+        },
+        "4_san marino": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2005-san-marino-grand-prix",
+            "2005 in Review - San Marino": "https://f1tv.formula1.com/en/episode/2005-in-review-san-marino"
+        },
+        "5_spanish": {
+            "2005 in Review - Spain": "https://f1tv.formula1.com/en/episode/2005-in-review-spain"
+        },
+        "6_monaco": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2005-monaco-grand-prix",
+            "2005 in Review - Monaco": "https://f1tv.formula1.com/en/episode/2005-in-review-monaco"
+        },
+        "7_european": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2005-european-grand-prix",
+            "2005 in Review - Nurburgring": "https://f1tv.formula1.com/en/episode/2005-in-review-nurburgring"
+        },
+        "8_canadian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2005-canadian-grand-prix",
+            "2005 in Review - Canada": "https://f1tv.formula1.com/en/episode/2005-in-review-canada"
+        },
+        "9_united states": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2005-united-states-grand-prix",
+            "2005 in Review - Indianapolis": "https://f1tv.formula1.com/en/episode/2005-in-review-indianapolis"
+        },
+        "10_french": {
+            "2005 in Review - France": "https://f1tv.formula1.com/en/episode/2005-in-review-france"
+        },
+        "11_british": {
+            "2005 in Review - Great Britain": "https://f1tv.formula1.com/en/episode/2005-in-review-great-britain"
+        },
+        "12_german": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2005-german-gp",
+            "2005 in Review - Germany": "https://f1tv.formula1.com/en/episode/2005-in-review-germany"
+        },
+        "13_hungarian": {
+            "2005 in Review - Hungary": "https://f1tv.formula1.com/en/episode/2005-in-review-hungary"
+        },
+        "14_turkish": {
+            "2005 in Review - Turkey": "https://f1tv.formula1.com/en/episode/2005-in-review-turkey"
+        },
+        "15_belgian": {
+            "2005 in Review - Belgium": "https://f1tv.formula1.com/en/episode/2005-in-review-belgium"
+        },
+        "16_brazilian": {
+            "2005 in Review - Brazil": "https://f1tv.formula1.com/en/episode/2005-in-review-brazil"
+        },
+        "17_japanese": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2005-japanese-grand-prix",
+            "2005 in Review - Japan": "https://f1tv.formula1.com/en/episode/2005-in-review-japan"
         }
     },
     "2004": {
@@ -1643,16 +1848,6 @@
         "3_bahrain": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2004-bahrain-grand-prix",
             "2004 in Review - Bahrain": "https://f1tv.formula1.com/en/episode/2004-in-review-bahrain"
-        },
-        "4_san marino": {
-            "2004 in Review - San Marino": "https://f1tv.formula1.com/en/episode/2004-in-review-san-marino"
-        },
-        "5_spanish": {
-            "2004 in Review - Spain": "https://f1tv.formula1.com/en/episode/2004-in-review-spain"
-        },
-        "6_french": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2004-french-grand-prix",
-            "2004 in Review - France": "https://f1tv.formula1.com/en/episode/2004-in-review-france"
         }
     },
     "2003": {
@@ -1705,7 +1900,10 @@
         "14_italian": {
             "2003 in Review - Italy": "https://f1tv.formula1.com/en/episode/2003-in-review-italy"
         },
-        "15_japanese": {
+        "15_united states": {
+            "2003 in Review - Indianapolis": "https://f1tv.formula1.com/en/episode/2003-in-review-indianapolis"
+        },
+        "16_japanese": {
             "2003 in Review - Japan": "https://f1tv.formula1.com/en/episode/2003-in-review-japan"
         }
     },
@@ -1816,6 +2014,12 @@
         "15_italian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2001-italian-grand-prix",
             "2001 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/2001-italian-grand-prix-highlights"
+        },
+        "16_united states": {
+            "2001 In Review: United States Grand Prix": "https://f1tv.formula1.com/en/episode/2001-unied-states-grand-prix-highlights"
+        },
+        "17_japanese": {
+            "2001 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/2001-japanese-grand-prix-highlights"
         }
     },
     "2000": {
@@ -2124,14 +2328,10 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/1995-canadian-grand-prix",
             "1995 In Review: Canadian Grand Prix": "https://f1tv.formula1.com/en/episode/1995-canadian-grand-prix-highlights"
         },
-        "6_french": {
-            "1995 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1995-french-grand-prix-highlights"
+        "6_german": {
+            "1995 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1995-german-grand-prix-highlights"
         },
-        "7_british": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/1995-british-grand-prix",
-            "1995 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1995-british-grand-prix-highlights"
-        },
-        "8_hungarian": {
+        "7_hungarian": {
             "1995 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1995-hungarian-grand-prix-highlights"
         }
     },
@@ -2162,8 +2362,32 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/1994-british-grand-prix",
             "1994 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1994-british-grand-prix-highlights"
         },
-        "9_hungarian": {
+        "9_german": {
+            "1994 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1994-german-grand-prix-highlights",
+            "1994 German Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1994-german-grand-prix-extended-highlights"
+        },
+        "10_hungarian": {
             "1994 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1994-hungarian-grand-prix-highlights"
+        },
+        "11_belgian": {
+            "1994 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/1994-belgian-grand-prix-highlights"
+        },
+        "12_italian": {
+            "1994 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/1994-italian-grand-prix-highlights"
+        },
+        "13_portuguese": {
+            "1994 In Review: Portuguese Grand Prix": "https://f1tv.formula1.com/en/episode/1994-portuguese-grand-prix-highlights"
+        },
+        "14_european": {
+            "1994 In Review: European Grand Prix": "https://f1tv.formula1.com/en/episode/1994-european-grand-prix-highlights"
+        },
+        "15_japanese": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/1994-japanese-grand-prix",
+            "1994 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/1994-japanese-grand-prix-highlights"
+        },
+        "16_australian": {
+            "1994 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1994-australian-grand-prix-highlights",
+            "1994 Australian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1994-australian-grand-prix-extended-highlights"
         }
     },
     "1993": {
@@ -2204,13 +2428,24 @@
         "11_hungarian": {
             "1993 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1993-hungarian-grand-prix-highlights"
         },
-        "12_italian": {
+        "12_belgian": {
+            "1993 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/1993-belgian-grand-prix-highlights"
+        },
+        "13_italian": {
             "1993 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/1993-italian-grand-prix-highlights",
             "1993 Italian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1993-italian-grand-prix-extended-highlights"
         },
-        "13_portuguese": {
+        "14_portuguese": {
             "1993 In Review: Portuguese Grand Prix": "https://f1tv.formula1.com/en/episode/1993-portuguese-grand-prix-highlights",
             "1993 Portuguese Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1993-portuguese-grand-prix-extended-highlights"
+        },
+        "15_japanese": {
+            "1993 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/1993-japanese-grand-prix-highlights",
+            "1993 Japanese Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1993-japanese-grand-prix-extended-highlights"
+        },
+        "16_australian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/1993-australian-grand-prix",
+            "1993 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1993-australian-grand-prix-highlights"
         }
     },
     "1992": {
@@ -2238,6 +2473,34 @@
         },
         "8_french": {
             "1992 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1992-french-grand-prix-highlights"
+        },
+        "9_british": {
+            "1992 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1992-british-grand-prix-highlights",
+            "1992 British Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1992-british-grand-prix-highlights-extended-highlights"
+        },
+        "10_german": {
+            "1992 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1992-german-grand-prix-highlights",
+            "1992 German Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1992-german-grand-prix-extended-highlights"
+        },
+        "11_hungarian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/1992-hungarian-grand-prix",
+            "1992 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-hungarian-grand-prix-highlights"
+        },
+        "12_belgian": {
+            "1992 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-belgian-grand-prix-highlights"
+        },
+        "13_italian": {
+            "1992 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-italian-grand-prix-highlights"
+        },
+        "14_portuguese": {
+            "1992 In Review: Portuguese Grand Prix": "https://f1tv.formula1.com/en/episode/1992-portuguese-grand-prix-highlights"
+        },
+        "15_japanese": {
+            "1992 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/1992-japanese-grand-prix-highlights"
+        },
+        "16_australian": {
+            "1992 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-australian-grand-prix-highlights",
+            "1992 Australian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1992-australian-grand-prix-extended-highlights"
         }
     },
     "1991": {
@@ -2252,14 +2515,40 @@
         "3_san marino": {
             "1991 In Review: San Marino Grand Prix": "https://f1tv.formula1.com/en/episode/1991-san-marino-grand-prix-highlights"
         },
-        "4_canadian": {
+        "4_monaco": {
+            "1991 In Review: Monaco Grand Prix": "https://f1tv.formula1.com/en/episode/1991-monaco-grand-prix-highlights"
+        },
+        "5_canadian": {
             "1991 In Review: Canadian Grand Prix": "https://f1tv.formula1.com/en/episode/1991-canadian-grand-prix-highlights"
         },
-        "5_french": {
+        "6_mexican": {
+            "1991 In Review: Mexican Grand Prix": "https://f1tv.formula1.com/en/episode/1991-mexican-grand-prix-highlights"
+        },
+        "7_french": {
             "1991 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1991-french-grand-prix-highlights"
         },
-        "6_british": {
+        "8_british": {
             "1991 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1991-british-grand-prix-highlights"
+        },
+        "9_german": {
+            "1991 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1991-german-grand-prix-highlights"
+        },
+        "10_hungarian": {
+            "1991 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1991-hungarian-grand-prix-highlights"
+        },
+        "11_belgian": {
+            "1991 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/1991-belgian-grand-prix-highlights"
+        },
+        "12_italian": {
+            "1991 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/1991-italian-grand-prix-highlights",
+            "1991 Italian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1991-italian-grand-prix-extended-highlights"
+        },
+        "13_portuguese": {
+            "1991 In Review: Portuguese Grand Prix": "https://f1tv.formula1.com/en/episode/1991-portuguese-grand-prix-highlights"
+        },
+        "14_spanish": {
+            "1991 In Review: Spanish Grand Prix": "https://f1tv.formula1.com/en/episode/1991-spanish-grand-prix-highlights",
+            "1991 Spanish Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1991-spanish-grand-prix-extended-highlights"
         }
     },
     "1990": {
@@ -2273,6 +2562,25 @@
         "3_san marino": {
             "1990 In Review: San Marino Grand Prix": "https://f1tv.formula1.com/en/episode/1990-san-marino-grand-prix-highlights",
             "1990 San Marino Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1990-san-marino-grand-prix-extended-highlights"
+        },
+        "4_monaco": {
+            "1990 In Review: Monaco Grand Prix": "https://f1tv.formula1.com/en/episode/1990-monaco-grand-prix-highlights"
+        },
+        "5_canadian": {
+            "1990 In Review: Canadian Grand Prix": "https://f1tv.formula1.com/en/episode/1990-canadian-grand-prix-highlights"
+        },
+        "6_mexican": {
+            "1990 In Review: Mexican Grand Prix": "https://f1tv.formula1.com/en/episode/1990-mexican-grand-prix-highlights",
+            "1990 Mexican Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1990-mexican-grand-prix-extended-highlights"
+        },
+        "7_french": {
+            "1990 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1990-french-grand-prix-highlights"
+        },
+        "8_british": {
+            "1990 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1990-british-grand-prix-highlights"
+        },
+        "9_german": {
+            "1990 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1990-german-grand-prix-highlights"
         }
     },
     "1989": {
@@ -2289,35 +2597,18 @@
         "4_mexican": {
             "1989 In Review: Mexican Grand Prix": "https://f1tv.formula1.com/en/episode/1989-mexican-grand-prix-highlights"
         },
-        "5_united states": {
-            "1989 In Review: United States Grand Prix": "https://f1tv.formula1.com/en/episode/1989-united-states-grand-prix-highlights"
-        },
-        "6_canadian": {
-            "1989 In Review: Canadian Grand Prix": "https://f1tv.formula1.com/en/episode/1989-canadian-grand-prix-highlights",
-            "1989 Canadian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1989-canadian-grand-prix-extended-highlights"
-        },
-        "7_french": {
+        "5_french": {
             "1989 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1989-french-grand-prix-highlights"
         },
-        "8_british": {
+        "6_british": {
             "1989 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1989-british-grand-prix-highlights"
         },
-        "9_german": {
+        "7_german": {
             "1989 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1989-german-grand-prix-highlights"
         },
-        "10_hungarian": {
+        "8_hungarian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/1989-hungarian-grand-prix",
             "1989 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1989-hungarian-grand-prix-highlights"
-        },
-        "11_portuguese": {
-            "1989 In Review: Portuguese Grand Prix": "https://f1tv.formula1.com/en/episode/1989-portuguese-grand-prix-highlights"
-        },
-        "12_spanish": {
-            "1989 In Review: Spanish Grand Prix": "https://f1tv.formula1.com/en/episode/1989-spanish-grand-prix-highlights"
-        },
-        "13_japanese": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/1989-japanese-grand-prix",
-            "1989 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/1989-japanese-grand-prix-highlights"
         }
     },
     "1988": {
@@ -2426,6 +2717,9 @@
         "15_japanese": {
             "1987 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/1987-japanese-grand-prix-highlights",
             "1987 Japanese Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1987-japanese-grand-prix-ext-highlights"
+        },
+        "16_australian": {
+            "1987 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1987-australian-grand-prix-highlights"
         }
     },
     "1986": {
@@ -2459,11 +2753,29 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/1986-british-grand-prix",
             "1986 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1986-british-grand-prix-highlights"
         },
-        "10_italian": {
+        "10_german": {
+            "1986 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1986-german-grand-prix-highlights",
+            "1986 German Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1986-german-grand-prix-extended-highlights"
+        },
+        "11_hungarian": {
+            "1986 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1986-hungarian-grand-prix-highlights",
+            "1986 Hungarian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1986-hungarian-grand-prix-extended-highlights"
+        },
+        "12_austrian": {
+            "1986 In Review: Austrian Grand Prix": "https://f1tv.formula1.com/en/episode/1986-austrian-grand-prix-highlights"
+        },
+        "13_italian": {
             "1986 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/1986-italian-grand-prix-highlights"
         },
-        "11_portuguese": {
+        "14_portuguese": {
             "1986 In Review: Portuguese Grand Prix": "https://f1tv.formula1.com/en/episode/1986-portuguese-grand-prix-highlights"
+        },
+        "15_mexican": {
+            "1986 In Review: Mexican Grand Prix": "https://f1tv.formula1.com/en/episode/1986-mexican-grand-prix-highlights"
+        },
+        "16_australian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/1986-australian-grand-prix",
+            "1986 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1986-australian-grand-prix-highlights"
         }
     },
     "1985": {
@@ -2491,6 +2803,28 @@
         "7_french": {
             "1985 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1985-french-grand-prix-highlights",
             "1985 French Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1985-french-grand-prix-extended-highlights"
+        },
+        "8_british": {
+            "1985 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1985-british-grand-prix-highlights"
+        },
+        "9_german": {
+            "1985 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1985-german-grand-prix-highlights"
+        },
+        "10_austrian": {
+            "1985 In Review: Austrian Grand Prix": "https://f1tv.formula1.com/en/episode/1985-austrian"
+        },
+        "11_dutch": {
+            "1985 In Review: Dutch Grand Prix": "https://f1tv.formula1.com/en/episode/1985-dutch-grand-prix-highlights",
+            "1985 Dutch Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1985-dutch-gp-extended-highlights"
+        },
+        "12_belgian": {
+            "1985 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/1985-belgian-grand-prix-highlights"
+        },
+        "13_european": {
+            "1985 In Review: European Grand Prix": "https://f1tv.formula1.com/en/episode/1985-european-grand-prix-highlights"
+        },
+        "14_south african": {
+            "1985 In Review: South African Grand Prix": "https://f1tv.formula1.com/en/episode/1985-south-african-grand-prix-highlights"
         }
     },
     "1984": {
@@ -2503,13 +2837,36 @@
         "3_belgian": {
             "1984 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/1984-belgian-grand-prix-highlights"
         },
-        "4_monaco": {
+        "4_san marino": {
+            "1984 In Review: San Marino Grand Prix": "https://f1tv.formula1.com/en/episode/1984-san-marino-grand-prix-highlights"
+        },
+        "5_french": {
+            "1984 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1984-french-grand-prix-highlights"
+        },
+        "6_monaco": {
             "1984 In Review: Monaco Grand Prix": "https://f1tv.formula1.com/en/episode/1984-monaco-grand-prix-highlights",
             "1984 Monaco Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1984-monaco-grand-prix-extended-highlights"
         },
-        "5_detroit": {
+        "7_canadian": {
+            "1984 In Review: Canadian Grand Prix": "https://f1tv.formula1.com/en/episode/1984-canadian-grand-prix-highlights"
+        },
+        "8_detroit": {
             "1984 In Review: Detroit Grand Prix": "https://f1tv.formula1.com/en/episode/1984-detroit-grand-prix-highlights",
             "1984 Detroit Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1984-detroit-grand-prix-extended-highlights"
+        },
+        "9_british": {
+            "1984 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1984-british-grand-prix-highlights"
+        },
+        "10_german": {
+            "1984 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1984-german-grand-prix-highlights"
+        },
+        "11_austrian": {
+            "1984 In Review: Austrian Grand Prix": "https://f1tv.formula1.com/en/episode/1984-austrian-grand-prix-highlights",
+            "1984 Austrian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1984-austrian-grand-prix-extended-highlights"
+        },
+        "12_portuguese": {
+            "1984 In Review: Portuguese Grand Prix": "https://f1tv.formula1.com/en/episode/1984-portuguese-grand-prix-highlights",
+            "1984 Portuguese Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1984-portuguese-grand-prix-extended-highlights"
         }
     },
     "1983": {
