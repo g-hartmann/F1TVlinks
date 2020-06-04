@@ -8,6 +8,13 @@ import colorama
 
 colorama.init()
 
+def sleep_anim(sec):
+    if sec >= 1:
+        for i in range(int(sec)):
+            print(".", end="")
+            sleep(1)
+        print()
+
 def process_replays(html_replay, p_driver=None):
     if p_driver == None:
         replays = element.find_elements_by_class_name(html_replay["html_class_name"])
@@ -97,7 +104,7 @@ print_green("Selected year: " + html_btn_season_select.text)
 
 html_btns_year_select = WebDriverWait(DRIVER, 10).until(lambda d: d.find_elements_by_class_name(HTMLATTR_YEAR_SELECT_BTN))
 
-sleep(1)
+sleep_anim(1)
 for year_button in html_btns_year_select[:]:
     if year_button.get_attribute("disabled") != None:
         html_btns_year_select.remove(year_button)
@@ -116,11 +123,11 @@ for year_button in html_btns_year_select:
         print_green("clicked " + str_year)
     except:
         print_red("button " + year_button.find_element_by_xpath('..').get_attribute("id") + " not clickable")
-    sleep(5)
+    sleep_anim(5)
     DRIVER.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    sleep(6)
+    sleep_anim(6)
     DRIVER.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    sleep(6)
+    sleep_anim(6)
     
     gp_elems = DRIVER.find_elements_by_class_name(HTMLATTR_GP_ELEM_WRAPPER)
     order_counter = 0  
@@ -162,12 +169,12 @@ for year_button in html_btns_year_select:
                 aux_driver = webdriver.Chrome(options=options)
                 aux_driver.get(BASE_URL)
                 add_cookies_to_driver(aux_driver)
-                sleep(3)
+                sleep_anim(3)
                 aux_driver.get(elem_url)
-                sleep(10)
+                sleep_anim(10)
                 aux_driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 print_green("scrolled down...")
-                sleep(4)
+                sleep_anim(4)
                 
                 # Find and click all "View more"-buttons.
                 btnFound = True
@@ -180,11 +187,11 @@ for year_button in html_btns_year_select:
                         btnFound = False
                         continue
                     aux_driver.execute_script("arguments[0].click();", viewmore_button)
-                    sleep(1)
-                sleep(1)
+                    sleep_anim(1)
+                sleep_anim(1)
                 process_replays(HTML_REPLAY_POST2018, aux_driver)
                 aux_driver.quit()
-                sleep(1)
+                sleep_anim(1)
             sleep(0.3)
             print_green("completed weekend")
             print()
