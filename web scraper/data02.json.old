@@ -1,6 +1,6 @@
 {
     "2019": {
-        "0_pre-season testing 2019": {
+        "1_pre-season testing 2019": {
             "2019 Pre-Season Testing: What we learned": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-what-we-learned",
             "Paddock Pass: 2019 Pre-Season Testing, Week 2": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-week-2-paddock-pass",
             "2019 Pre-Season Testing: Day 8, Tech Talk": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-8-tech-talk",
@@ -20,7 +20,6 @@
             "2019 Pre-Season Testing: Day 2, Review Show": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-2-review-show",
             "2019 Pre-Season Testing: Day 2, Highlights": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-2-highlights",
             "2019 Pre-Season Testing: Day 1, Review Show": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-1-review-show",
-            "2019 Pre-Season Testing: Day 1, Highlights": "https://f1tv.formula1.com/en/episode/2019-pre-season-testing-day-1-highlights",
             "Pre-Season Testing Day 4, Session 1": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-4-session-1",
             "Pre-Season Testing Day 3, Session 2": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-3-session-2",
             "Pre-Season Testing Day 3, Session 1": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-3-session-1",
@@ -29,7 +28,7 @@
             "Pre-Season Testing Day 1, Session 2": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-1-session-2",
             "Pre-Season Testing Day 1, Session 1": "https://f1tv.formula1.com/en/archive/2019/pre-season-testing-2019/pre-season-testing-day-1-session-1"
         },
-        "1_australian": {
+        "2_australian": {
             "TECH TALK - Australia": "https://f1tv.formula1.com/en/episode/tech-talk-2019-australia",
             "FIA Thursday Press Conference - Australia": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-australia",
             "WEEKEND DEBRIEF - Australia": "https://f1tv.formula1.com/en/episode/2019-australian-grand-prix-weekend-debrief",
@@ -52,7 +51,7 @@
             "Australia Practice 2": "https://f1tv.formula1.com/en/archive/2019/australian-grand-prix/2019-australian-grand-prix-practice-2",
             "Australia Practice 1": "https://f1tv.formula1.com/en/archive/2019/australian-grand-prix/2019-australian-grand-prix-practice-1"
         },
-        "2_bahrain": {
+        "3_bahrain": {
             "TECH TALK - Bahrain": "https://f1tv.formula1.com/en/episode/tech-talk-2019-bahrain",
             "JOLYON PALMER'S ANALYSIS - Bahrain": "https://f1tv.formula1.com/en/episode/jolyon-palmer-analysis-bahrain",
             "WEEKEND DEBRIEF - Bahrain": "https://f1tv.formula1.com/en/episode/2019-bahrain-grand-prix-weekend-debrief",
@@ -73,9 +72,6 @@
             "F2: Post Qualifying Press Conference - Bahrain": "https://f1tv.formula1.com/en/episode/formula-2-post-qualifying-press-conference-bahrain",
             "PRACTICE 2 HIGHLIGHTS - Bahrain": "https://f1tv.formula1.com/en/episode/2019-bahrain-grand-prix-free-practice-2-highlights",
             "FIA Friday Press Conference - Bahrain": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-bahrain",
-            "PRACTICE 1 HIGHLIGHTS - Bahrain": "https://f1tv.formula1.com/en/episode/2019-bahrain-grand-prix-free-practice-1-highlights",
-            "FIA Thursday Press Conference - Bahrain": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-bahrain",
-            "PADDOCK PASS - Pre-race in Bahrain": "https://f1tv.formula1.com/en/episode/paddock-pass-previewing-the-2019-bahrain-grand-prix",
             "Bahrain Race": "https://f1tv.formula1.com/en/archive/2019/bahrain-grand-prix/2019-bahrain-grand-prix-race",
             "Bahrain Qualifying": "https://f1tv.formula1.com/en/archive/2019/bahrain-grand-prix/2019-bahrain-grand-prix-qualifying",
             "Bahrain Practice 3": "https://f1tv.formula1.com/en/archive/2019/bahrain-grand-prix/2019-bahrain-grand-prix-practice-3",
@@ -85,7 +81,7 @@
             "Bahrain Practice 1": "https://f1tv.formula1.com/en/archive/2019/bahrain-grand-prix/2019-bahrain-grand-prix-practice-1",
             "Bahrain F2 Practice": "https://f1tv.formula1.com/en/archive/2019/bahrain-grand-prix/f2-practice"
         },
-        "3_chinese": {
+        "4_chinese": {
             "TECH TALK - China": "https://f1tv.formula1.com/en/episode/tech-talk-2019-china",
             "JOLYON PALMER'S ANALYSIS - China": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-china",
             "WEEKEND DEBRIEF - China": "https://f1tv.formula1.com/en/episode/weekend-debrief-china",
@@ -108,7 +104,7 @@
             "China Practice 2": "https://f1tv.formula1.com/en/archive/2019/chinese-grand-prix/2019-chinese-grand-prix-practice-2",
             "China Practice 1": "https://f1tv.formula1.com/en/archive/2019/chinese-grand-prix/2019-chinese-grand-prix-practice-1"
         },
-        "4_azerbaijan": {
+        "5_azerbaijan": {
             "TECH TALK - Azerbaijan": "https://f1tv.formula1.com/en/episode/tech-talk-2019-azerbaijan",
             "JOLYON PALMER'S ANALYSIS - Azerbaijan": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-azerbaijan",
             "WEEKEND DEBRIEF - Azerbaijan": "https://f1tv.formula1.com/en/episode/weekend-debrief-azerbaijan",
@@ -118,7 +114,7 @@
             "RACE IN 30 - Azerbaijan": "https://f1tv.formula1.com/en/episode/race-in-30-azerbaijan",
             "F2: SPRINT RACE HIGHLIGHTS - Azerbaijan": "https://f1tv.formula1.com/en/episode/f2-sprint-race-highlights-azerbaijan",
             "F2: Post Sprint Race Press Conference - Azerbaijan": "https://f1tv.formula1.com/en/episode/f2-post-sprint-race-press-conference-azerbaijan",
-            "PADDOCK PASS:  Post-Qualifying - Azerbaijan": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-azerbaijan",
+            "PADDOCK PASS: Post-Qualifying - Azerbaijan": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-azerbaijan",
             "FIA Post-Qualifying Press Conference - Azerbaijan": "https://f1tv.formula1.com/en/episode/fia-post-qualifying-press-conference-azerbaijan",
             "QUALIFYING HIGHLIGHTS - Azerbaijan": "https://f1tv.formula1.com/en/episode/qualifying-highlights-azerbaijan",
             "F2: FEATURE RACE HIGHLIGHTS - Azerbaijan": "https://f1tv.formula1.com/en/episode/f2-feature-race-highlights-azerbaijan",
@@ -128,8 +124,6 @@
             "PRACTICE 2 HIGHLIGHTS - Azerbaijan": "https://f1tv.formula1.com/en/episode/free-practice-2-highlights-azerbaijan",
             "FIA Friday Press Conference - Azerbaijan": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-azerbaijan",
             "PRACTICE 1 HIGHLIGHTS - Azerbaijan": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-azerbaijan",
-            "PADDOCK PASS:  Pre-race - Azerbaijan": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-azerbaijan",
-            "FIA Thursday Press Conference - Azerbaijan": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-azerbaijan",
             "Azerbaijan Race": "https://f1tv.formula1.com/en/archive/2019/azerbaijan-grand-prix/2019-azerbaijan-grand-prix-race",
             "Azerbaijan F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/azerbaijan-grand-prix/azerbaijan-2019-f2-sprint",
             "Azerbaijan F1 Qualifying": "https://f1tv.formula1.com/en/archive/2019/azerbaijan-grand-prix/2019-azerbaijan-grand-prix-qualifying",
@@ -140,7 +134,7 @@
             "Azerbaijan F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/azerbaijan-grand-prix/2019-azerbaijan-grand-prix-practice-1",
             "Azerbaijan F2 Practice": "https://f1tv.formula1.com/en/archive/2019/azerbaijan-grand-prix/azerbaijan-2019-f2-practice"
         },
-        "5_spanish": {
+        "6_spanish": {
             "TECH TALK - Spain": "https://f1tv.formula1.com/en/episode/tech-talk-2019-spain",
             "JOLYON PALMER'S ANALYSIS - Spain": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-spain",
             "WEEKEND DEBRIEF - Spain": "https://f1tv.formula1.com/en/episode/weekend-debrief-spain",
@@ -149,7 +143,7 @@
             "#F1Live - Spain": "https://f1tv.formula1.com/en/episode/f1live-spain",
             "RACE IN 30 - Spain": "https://f1tv.formula1.com/en/episode/race-in-30-spain",
             "RACE HIGHLIGHTS - Spain": "https://f1tv.formula1.com/en/episode/race-highlights-spain",
-            "FIA  Post-Race Press Conference - Spain": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-spain",
+            "FIA Post-Race Press Conference - Spain": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-spain",
             "F3: RACE 1 HIGHLIGHTS - Spain": "https://f1tv.formula1.com/en/episode/f3-feature-race-highlights-spain",
             "F2: Post Sprint Race Press Conference - Spain": "https://f1tv.formula1.com/en/episode/fia-post-feature-race-press-conference-spain",
             "F2: SPRINT RACE HIGHLIGHTS - Spain": "https://f1tv.formula1.com/en/episode/f2-sprint-race-highlights-spain",
@@ -166,7 +160,6 @@
             "PRACTICE 1 HIGHLIGHTS - Spain": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-spain",
             "FIA Friday Press Conference - Spain": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-spain",
             "Paddock Pass: Pre-race in Spain": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-in-barcelona",
-            "FIA Thursday Press Conference - Spain": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-spain",
             "Spain F1 Race": "https://f1tv.formula1.com/en/archive/2019/spanish-grand-prix/2019-spanish-grand-prix-race",
             "Spain Supercup Race": "https://f1tv.formula1.com/en/archive/2019/spanish-grand-prix/spain-2019-supercup-race",
             "Spain F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/spanish-grand-prix/spain-2019-f2-sprint",
@@ -184,20 +177,20 @@
             "Spain F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/spanish-grand-prix/2019-spanish-grand-prix-practice-1",
             "Spain F3 Practice": "https://f1tv.formula1.com/en/archive/2019/spanish-grand-prix/spain-2019-f3-practice"
         },
-        "6_monaco": {
+        "7_monaco": {
             "TECH TALK - Monaco": "https://f1tv.formula1.com/en/episode/tech-talk-2019-monaco",
             "Hamilton's Tyre Drama": "https://f1tv.formula1.com/en/episode/hamiltons-tyre-drama",
             "JOLYON PALMER'S ANALYSIS - Monaco": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-monaco",
             "WEEKEND DEBRIEF - Monaco": "https://f1tv.formula1.com/en/episode/weekend-debrief-monaco",
             "PORSCHE SUPERCUP HIGHLIGHTS - Monaco": "https://f1tv.formula1.com/en/episode/porsche-supercup-highlights-monaco",
             "ZERO TO HERO: Carlos Sainz's rapid Monaco recovery": "https://f1tv.formula1.com/en/episode/zero-to-hero-carlos-sainzs-rapid-monaco-recovery",
-            "PADDOCK PASS:  Post race - Monaco": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-monaco-gp",
+            "PADDOCK PASS: Post race - Monaco": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-monaco-gp",
             "RACE HIGHLIGHTS - Monaco": "https://f1tv.formula1.com/en/episode/race-highlights-monaco",
             "FIA Post-Race Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-monaco",
             "#F1Live - Monaco": "https://f1tv.formula1.com/en/episode/f1live-monaco",
             "RACE IN 30 - Monaco": "https://f1tv.formula1.com/en/episode/race-in-30-monaco",
             "Kimi Raikkonen reviews his top 5 races": "https://f1tv.formula1.com/en/episode/kimi-raikkonen-reviews-his-top-5-races",
-            "PADDOCK PASS:  Post qualifying - Monaco": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-at-the-monaco-gp",
+            "PADDOCK PASS: Post qualifying - Monaco": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-at-the-monaco-gp",
             "Monaco's 90th Anniversary: A corner-by-corner history": "https://f1tv.formula1.com/en/episode/monacos-90th-anniversary-a-corner-by-corner-history",
             "FIA Post-Qualifying Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/2019-monaco-grand-prix-post-qualifying-press-conference",
             "F2: Post Sprint Race Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/f2-post-spint-race-press-conference-monaco",
@@ -210,8 +203,6 @@
             "F2: Post Qualifying Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/f2-post-qualifying-press-conference-monaco",
             "FIA Thursday Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-monaco",
             "PRACTICE 1 HIGHLIGHTS - Monaco": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-monaco",
-            "FIA Wednesday Press Conference - Monaco": "https://f1tv.formula1.com/en/episode/fia-wednesday-press-conference-monaco",
-            "PADDOCK PASS: Pre-race in Monaco": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-in-monaco",
             "Monaco Race": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-grand-prix-race",
             "Monaco Supercup Race": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-supercup-race",
             "Monaco F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-f2-sprint-race",
@@ -225,15 +216,15 @@
             "Monaco F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-grand-prix-practice-1",
             "Monaco F2 Practice": "https://f1tv.formula1.com/en/archive/2019/monaco-grand-prix/2019-monaco-f2-practice"
         },
-        "7_canadian": {
+        "8_canadian": {
             "TECH TALK - Canada": "https://f1tv.formula1.com/en/episode/tech-talk-2019-canada",
             "JOLYON PALMER'S ANALYSIS - Canada": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-canada",
             "WEEKEND DEBRIEF - Canada": "https://f1tv.formula1.com/en/episode/weekend-debrief-canada",
-            "PADDOCK PASS:  Post race - Canada": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-2019-canadian-grand-prix",
+            "PADDOCK PASS: Post race - Canada": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-2019-canadian-grand-prix",
             "RACE HIGHLIGHTS - Canada": "https://f1tv.formula1.com/en/episode/race-highlights-canada",
             "RACE IN 30 - Canada": "https://f1tv.formula1.com/en/episode/race-in-30-canada",
             "FIA Post-Race Press Conference - Canada": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-canada",
-            "PADDOCK PASS:  Post Qualifying - Canada": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-canada",
+            "PADDOCK PASS: Post Qualifying - Canada": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-canada",
             "Gilles Villeneuve: Canadian hero, racing icon": "https://f1tv.formula1.com/en/episode/gilles-villeneuve-canadian-hero-racing-icon",
             "FIA Post-Qualifying Press Conference - Canada": "https://f1tv.formula1.com/en/episode/fia-post-qualifying-press-conference-canada",
             "QUALIFYING HIGHLIGHTS - Canada": "https://f1tv.formula1.com/en/episode/qualifying-highlights-canada",
@@ -242,7 +233,7 @@
             "FIA Friday Press Conference - Canada": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-canada",
             "PRACTICE 1 HIGHLIGHTS - Canada": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-canada",
             "FIA Thursday Press Conference - Canada": "https://f1tv.formula1.com/en/episode/2019-canadian-grand-prix-fia-thursday-press-conference",
-            "PADDOCK PASS:  Pre-race - Canada": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-at-the-2019-canadian-grand-prix",
+            "PADDOCK PASS: Pre-race - Canada": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-at-the-2019-canadian-grand-prix",
             "CANADA: 5 shock moments from F1 history": "https://f1tv.formula1.com/en/episode/canada-5-shock-moments-from-f1-history",
             "Canada Race": "https://f1tv.formula1.com/en/archive/2019/canadian-grand-prix/2019-canadian-grand-prix-race",
             "Canada Qualifying": "https://f1tv.formula1.com/en/archive/2019/canadian-grand-prix/2019-canadian-grand-prix-qualifying",
@@ -250,7 +241,7 @@
             "Canada Practice 2": "https://f1tv.formula1.com/en/archive/2019/canadian-grand-prix/2019-canadian-grand-prix-practice-2",
             "Canada Practice 1": "https://f1tv.formula1.com/en/archive/2019/canadian-grand-prix/2019-canadian-grand-prix-practice-1"
         },
-        "8_french": {
+        "9_french": {
             "TECH TALK - France": "https://f1tv.formula1.com/en/episode/tech-talk-2019-france",
             "JOLYON PALMER'S ANALYSIS - France": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-france",
             "WEEKEND DEBRIEF - France": "https://f1tv.formula1.com/en/episode/weekend-debrief-france",
@@ -290,20 +281,20 @@
             "France F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/french-grand-prix/2019-french-grand-prix-practice-1",
             "France F3 Practice": "https://f1tv.formula1.com/en/archive/2019/french-grand-prix/2019-french-f3-practice"
         },
-        "9_austrian": {
-            "F2: FEATURE RACE HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/f2-feature-race-highlights-austria",
+        "10_austrian": {
             "TECH TALK - Austria": "https://f1tv.formula1.com/en/episode/tech-talk-2019-austria",
             "JOLYON PALMER'S ANALYSIS - Austria": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-austria",
             "WEEKEND DEBRIEF - Austria": "https://f1tv.formula1.com/en/episode/weekend-debrief-austria",
             "PORSCHE SUPERCUP HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/supercup-highlights-austria",
             "Post Race Press Conference - Austria": "https://f1tv.formula1.com/en/episode/post-race-press-conference-austria",
-            "PADDOCK PASS:  Post race - Austria": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-austria",
+            "PADDOCK PASS: Post race - Austria": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-austria",
             "RACE IN 30 - Austria": "https://f1tv.formula1.com/en/episode/race-in-30-austria",
             "RACE HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/race-highlights-austria",
             "F2: SPRINT RACE HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/f2-sprint-race-highlights-austria",
             "F2: Post Sprint Race Press Conference - Austria": "https://f1tv.formula1.com/en/episode/f2-post-sprint-race-press-conference-austria",
             "F3: RACE 2 HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/f3-sprint-race-highlights-austria",
-            "PADDOCK PASS:  Post Qualifying - Austria": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-at-the-austrian-grand-prix",
+            "PADDOCK PASS: Post Qualifying - Austria": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-at-the-austrian-grand-prix",
+            "F2: FEATURE RACE HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/f2-feature-race-highlights-austria",
             "FIA Post-Qualifying Press Conference - Austria": "https://f1tv.formula1.com/en/episode/fia-post-qualifying-press-conference-austria",
             "F2: Post Feature Race Press Conference - Austria": "https://f1tv.formula1.com/en/episode/f2-post-feature-race-press-conference-austria",
             "QUALIFYING HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/qualifying-highlights-austria",
@@ -316,7 +307,6 @@
             "FIA Friday Press Conference - Austria": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-austria",
             "PRACTICE 1 HIGHLIGHTS - Austria": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-austria",
             "PADDOCK PASS: Previewing the Austrian Grand Prix": "https://f1tv.formula1.com/en/episode/paddock-pass-previewing-the-austrian-grand-prix",
-            "FIA Thursday Press Conference - Austria": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-austria",
             "Austria Race": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-grand-prix-race",
             "Austria Supercup Race": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-supercup-race",
             "Austria F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-f2-sprint",
@@ -334,7 +324,7 @@
             "Austria F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-grand-prix-practice-1",
             "Austria F3 Practice": "https://f1tv.formula1.com/en/archive/2019/austrian-grand-prix/2019-austrian-f3-practice"
         },
-        "10_british": {
+        "11_british": {
             "TECH TALK - Great Britain": "https://f1tv.formula1.com/en/episode/tech-talk-2019-great-britain",
             "RACE IN 30 - Great Britain": "https://f1tv.formula1.com/en/episode/race-in-30-britain",
             "JOLYON PALMER'S ANALYSIS - Great Britain": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-great-britain",
@@ -343,7 +333,7 @@
             "PADDOCK PASS: Reviewing the 2019 British Grand Prix": "https://f1tv.formula1.com/en/episode/paddock-pass-reviewing-the-2019-british-grand-prix",
             "FIA Post-Race Press Conference - Great Britain": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-great-britain",
             "RACE HIGHLIGHTS - Britain": "https://f1tv.formula1.com/en/episode/race-highlights-britain",
-            "#F1Live  - Great Britain": "https://f1tv.formula1.com/en/episode/f1live-great-britain",
+            "#F1Live - Great Britain": "https://f1tv.formula1.com/en/episode/f1live-great-britain",
             "F2: SPRINT RACE HIGHLIGHTS - Great Britain": "https://f1tv.formula1.com/en/episode/f2-sprint-race-highlights",
             "F2: Post Sprint Race Press Conference - Britain": "https://f1tv.formula1.com/en/episode/f2-post-sprint-race-press-conference",
             "F3: RACE 2 HIGHLIGHTS - Great Britain": "https://f1tv.formula1.com/en/episode/f3-race-2-highlights",
@@ -358,13 +348,6 @@
             "F2: Post Qualifying Press Conference - Great Britain": "https://f1tv.formula1.com/en/episode/f2-post-qualifying-press-conference-great-britain",
             "F3: Post Qualifying Press Conference - Great Britain": "https://f1tv.formula1.com/en/episode/f3-post-qualifying-press-conference-great-britain",
             "PRACTICE 2 HIGHLIGHTS - Great Britain": "https://f1tv.formula1.com/en/episode/free-practice-2-highlights-great-britain",
-            "FIA Friday Press Conference - Great Britain": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-great-britain",
-            "PRACTICE 1 HIGHLIGHTS - Great Britain": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-great-britain",
-            "FIA Thursday Press Conference - Great Britain": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-great-britain",
-            "PADDOCK PASS: Pre-race - Great Britain": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-at-the-2019-british-grand-prix",
-            "TRIUMPH & TRAGEDY: The Story of Frank Williams": "https://f1tv.formula1.com/en/episode/triumph-and-tragedy-the-story-of-frank-williams",
-            "MAGIC MOMENTS: Lewis Hamilton's British Grand Prix memories": "https://f1tv.formula1.com/en/episode/magic-moments-lewis-hamiltons-british-grand-prix-memories",
-            "A LETTER TO MY YOUNGER SELF: Jackie Stewart": "https://f1tv.formula1.com/en/episode/a-letter-to-my-younger-self-jackie-stewart",
             "United Kingdom Race": "https://f1tv.formula1.com/en/archive/2019/british-grand-prix/2019-british-grand-prix-race",
             "United Kingdom Supercup Race": "https://f1tv.formula1.com/en/archive/2019/british-grand-prix/2019-british-psc-race",
             "United Kingdom F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/british-grand-prix/2019-british-f2-sprint-race",
@@ -382,27 +365,26 @@
             "United Kingdom F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/british-grand-prix/2019-british-grand-prix-practice-1",
             "United Kingdom F3 Practice": "https://f1tv.formula1.com/en/archive/2019/british-grand-prix/2019-british-f3-practice"
         },
-        "11_german": {
+        "12_german": {
             "TECH TALK - Germany": "https://f1tv.formula1.com/en/episode/tech-talk-2019-germany",
             "JOLYON PALMER'S ANALYSIS - Germany": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-germany",
             "WEEKEND DEBRIEF - Germany": "https://f1tv.formula1.com/en/episode/weekend-debrief-germany",
             "PORSCHE SUPERCUP HIGHLIGHTS - Germany": "https://f1tv.formula1.com/en/episode/porsche-supercup-highlights-germany",
             "The history of Mercedes": "https://f1tv.formula1.com/en/episode/the-history-of-mercedes",
-            "PADDOCK PASS:  Post race - Germany": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-2019-german-grand-prix",
+            "PADDOCK PASS: Post race - Germany": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-2019-german-grand-prix",
             "RACE HIGHLIGHTS - Germany": "https://f1tv.formula1.com/en/episode/race-highlights-germany",
             "FIA Post-Race Press Conference - Germany": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-germany",
-            "#F1Live  - Germany": "https://f1tv.formula1.com/en/episode/f1live-germany",
+            "#F1Live - Germany": "https://f1tv.formula1.com/en/episode/f1live-germany",
             "RACE IN 30 - Germany": "https://f1tv.formula1.com/en/episode/race-in-30-germany",
             "RACE DAY BREAKFAST - Germany": "https://f1tv.formula1.com/en/episode/race-day-breakfast-german-grand-prix",
-            "PADDOCK PASS:  Post Qualifying - Germany": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-at-the-2019-german-grand-prix",
+            "PADDOCK PASS: Post Qualifying - Germany": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-at-the-2019-german-grand-prix",
             "QUALIFYING HIGHLIGHTS - Germany": "https://f1tv.formula1.com/en/episode/qualifying-highlights-germany",
             "FIA Post-Qualifying Press Conference - Germany": "https://f1tv.formula1.com/en/episode/fia-post-qualifying-press-conference-germany",
             "PRACTICE 3 HIGHLIGHTS - Germany": "https://f1tv.formula1.com/en/episode/practice-3-highlights-germany",
             "PRACTICE 2 HIGHLIGHTS - Germany": "https://f1tv.formula1.com/en/episode/practice-2-highlights-germany",
             "FIA Friday Press Conference - Germany": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-germany",
             "PRACTICE 1 HIGHLIGHTS - Germany": "https://f1tv.formula1.com/en/episode/practice-1-highlights-germany",
-            "PADDOCK PASS:  Pre-race - Germany": "https://f1tv.formula1.com/en/episode/paddock-pass-previewing-the-2019-german-grand-prix",
-            "FIA Thursday Press Conference - Germany": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-germany",
+            "PADDOCK PASS: Pre-race - Germany": "https://f1tv.formula1.com/en/episode/paddock-pass-previewing-the-2019-german-grand-prix",
             "Germany Race": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-grand-prix-race",
             "Germany Supercup Race": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-supercup-race",
             "Germany F1 Qualifying": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-grand-prix-qualifying",
@@ -412,19 +394,19 @@
             "Germany F1 Practice 2": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-grand-prix-practice-2",
             "Germany F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/german-grand-prix/2019-german-grand-prix-practice-1"
         },
-        "12_hungarian": {
+        "13_hungarian": {
             "TECH TALK - Hungary": "https://f1tv.formula1.com/en/episode/tech-talk-2019-hungary",
             "WEEKEND DEBRIEF - Hungary": "https://f1tv.formula1.com/en/episode/weekend-debrief-hungary",
             "JOLYON PALMER'S ANALYSIS - Hungary": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-hungary",
             "PORSCHE SUPERCUP HIGHLIGHTS - Hungary": "https://f1tv.formula1.com/en/episode/porsche-supercup-highlights-hungary",
-            "PADDOCK PASS:  Post race - Hungary": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-2019-hungarian-grand-prix",
+            "PADDOCK PASS: Post race - Hungary": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-2019-hungarian-grand-prix",
             "RACE HIGHLIGHTS - Hungary": "https://f1tv.formula1.com/en/episode/race-highlights-hungary",
             "FIA Post-Race Press Conference - Hungary": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-hungary",
             "RACE IN 30 - Hungary": "https://f1tv.formula1.com/en/episode/race-in-30-hungary",
             "F2: SPRINT RACE HIGHLIGHTS - Hungary": "https://f1tv.formula1.com/en/episode/f2-sprint-race-highlights-hungary",
             "F3: RACE 2 HIGHLIGHTS - Hungary": "https://f1tv.formula1.com/en/episode/f3-race-2-highlights-hungary",
             "F2: Post Sprint Race Press Conference - Hungary": "https://f1tv.formula1.com/en/episode/f2-post-sprint-race-press-conference-hungary",
-            "PADDOCK PASS:  Post Qualifying - Hungary": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-at-the-2019-hungarian-grand-prix",
+            "PADDOCK PASS: Post Qualifying - Hungary": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-at-the-2019-hungarian-grand-prix",
             "F3: RACE 1 HIGHLIGHTS - Hungary": "https://f1tv.formula1.com/en/episode/f3-race-1-highlights-hungary",
             "F3: Post Race 1 Press Conference - Hungary": "https://f1tv.formula1.com/en/episode/f3-post-race-1-press-conference-hungary",
             "FIA Post-Qualifying Press Conference - Hungary": "https://f1tv.formula1.com/en/episode/fia-post-qualifying-press-conference-hungary",
@@ -436,8 +418,8 @@
             "PRACTICE 2 HIGHLIGHTS - Hungary": "https://f1tv.formula1.com/en/episode/practice-2-highlights-hungary",
             "FIA Friday Press Conference - Hungary": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-hungary",
             "PRACTICE 1 HIGHLIGHTS - Hungary": "https://f1tv.formula1.com/en/episode/free-practice-1-highlights-hungary",
-            "PADDOCK PASS:  Pre-race - Hungary": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-hungary",
-            "FIA Thursday Press Conference - Hungary\u200b": "https://f1tv.formula1.com/en/episode/hungary-fia-pre-race-press-conference-highlights",
+            "PADDOCK PASS: Pre-race - Hungary": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-hungary",
+            "FIA Thursday Press Conference - Hungary": "https://f1tv.formula1.com/en/episode/hungary-fia-pre-race-press-conference-highlights",
             "Hungary Race": "https://f1tv.formula1.com/en/archive/2019/hungarian-grand-prix/2019-hungarian-grand-prix-race",
             "Hungary Supercup Race": "https://f1tv.formula1.com/en/archive/2019/hungarian-grand-prix/2019-hungarian-psc-race",
             "Hungary F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/hungarian-grand-prix/2019-hungarian-f2-sprint-race",
@@ -455,12 +437,12 @@
             "Hungary F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/hungarian-grand-prix/2019-hungarian-grand-prix-practice-1",
             "Hungary F3 Practice": "https://f1tv.formula1.com/en/archive/2019/hungarian-grand-prix/2019-hungarian-f3-practice"
         },
-        "13_belgian": {
+        "14_belgian": {
             "TECH TALK - Belgium": "https://f1tv.formula1.com/en/episode/tech-talk-2019-belgium",
             "JOLYON PALMER'S ANALYSIS - Belgium": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-belgium",
             "WEEKEND DEBRIEF - Belgium": "https://f1tv.formula1.com/en/episode/weekend-debrief-belgium",
             "PORSCHE SUPERCUP HIGHLIGHTS - Belgium": "https://f1tv.formula1.com/en/episode/porsche-supercup-highlights-belgium",
-            "PADDOCK PASS:  Post race - Belgium": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-2019-belgian-grand-prix",
+            "PADDOCK PASS: Post race - Belgium": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-at-the-2019-belgian-grand-prix",
             "FIA Post-Race Press Conference - Belgium": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-belgium",
             "RACE IN 30 - Belgium": "https://f1tv.formula1.com/en/episode/race-in-30-belgium",
             "RACE HIGHLIGHTS - Belgium": "https://f1tv.formula1.com/en/episode/race-highlights-belgium",
@@ -473,9 +455,9 @@
             "F2: Post Qualifying Press Conference - Belgium": "https://f1tv.formula1.com/en/episode/f2-post-qualifying-press-conference-belgium",
             "F3: Post Qualifying Press Conference - Belgium": "https://f1tv.formula1.com/en/episode/f3-post-qualifying-press-conference-belgium",
             "PRACTICE 2 HIGHLIGHTS - Belgium": "https://f1tv.formula1.com/en/episode/practice-2-highlights-belgium",
-            "FIA  Friday Press Conference - Belgium": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-belgium",
+            "FIA Friday Press Conference - Belgium": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-belgium",
             "PRACTICE 1 HIGHLIGHTS - Belgium": "https://f1tv.formula1.com/en/episode/practice-1-highlights-belgium",
-            "PADDOCK PASS:  Pre-race - Belgium": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-belgium",
+            "PADDOCK PASS: Pre-race - Belgium": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-belgium",
             "BELGIUM: Max Verstappen's Spa-Francorchamps circuit guide": "https://f1tv.formula1.com/en/episode/belgium-max-verstappens-spa-francorchamps-circuit-guide",
             "FIA Thursday Press Conference - Belgium": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-belgium",
             "F2 season so far: Drivers discuss their favourite battles": "https://f1tv.formula1.com/en/episode/f2-season-so-far-drivers-discuss-their-favourite-battles",
@@ -495,7 +477,7 @@
             "Belgium F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/belgian-grand-prix/2019-belgian-grand-prix-practice-1",
             "Belgium F3 Practice": "https://f1tv.formula1.com/en/archive/2019/belgian-grand-prix/2019-belgian-f3-practice"
         },
-        "14_italian": {
+        "15_italian": {
             "TECH TALK - Italy": "https://f1tv.formula1.com/en/episode/tech-talk-2019-italy",
             "JOLYON PALMER'S ANALYSIS - Italy": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-italy",
             "WEEKEND DEBRIEF - Italy": "https://f1tv.formula1.com/en/episode/weekend-debrief-italy",
@@ -508,7 +490,7 @@
             "F2: SPRINT RACE HIGHLIGHTS - Italy": "https://f1tv.formula1.com/en/episode/f2-sprint-race-highlights-italy",
             "F2: Post Sprint Race Press Conference - Italy": "https://f1tv.formula1.com/en/episode/f2-post-sprint-race-press-conference-italy",
             "RACE DAY BREAKFAST - Italy": "https://f1tv.formula1.com/en/episode/race-day-breakfast-italy",
-            "PADDOCK PASS:  Post Qualifying - Italy": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-italy",
+            "PADDOCK PASS: Post Qualifying - Italy": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-italy",
             "F2: FEATURE RACE HIGHLIGHTS - Italy": "https://f1tv.formula1.com/en/episode/f2-feature-race-highlights",
             "F2: Post Feature Race Press Conference - Italy": "https://f1tv.formula1.com/en/episode/f2-post-feature-race-press-conference-italy",
             "FIA Post-Qualifying Press Conference - Italy": "https://f1tv.formula1.com/en/episode/fia-post-qualifying-press-conference-italy",
@@ -519,11 +501,6 @@
             "F3: Post Qualifying Press Conference - Italy": "https://f1tv.formula1.com/en/episode/f3-post-qualifying-press-conference-italy",
             "F2: Post Qualifying Press Conference - Italy": "https://f1tv.formula1.com/en/episode/f2-post-qualifying-press-conference-italy",
             "Inside the mind of Sebastian Vettel": "https://f1tv.formula1.com/en/episode/inside-the-mind-of-sebastian-vettel",
-            "PRACTICE 2 HIGHLIGHTS - Italy": "https://f1tv.formula1.com/en/episode/practice-2-highlights-italy",
-            "FIA Friday Press Conference - Italy": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-italy",
-            "PRACTICE 1 HIGHLIGHTS - Italy": "https://f1tv.formula1.com/en/episode/practice-1-highlights-italy",
-            "PADDOCK PASS: Pre-race - Italy": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-italy",
-            "FIA Thursday Press Conference - Italy": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-italy",
             "Italy Race": "https://f1tv.formula1.com/en/archive/2019/italian-grand-prix/2019-italian-grand-prix-race",
             "Italy Supercup Race": "https://f1tv.formula1.com/en/archive/2019/italian-grand-prix/2019-italian-psc-race",
             "Italy F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/italian-grand-prix/2019-italian-f2-sprint-race",
@@ -541,7 +518,7 @@
             "Italy F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/italian-grand-prix/2019-italian-grand-prix-practice-1",
             "Italy F3 Practice": "https://f1tv.formula1.com/en/archive/2019/italian-grand-prix/2019-italian-f3-practice"
         },
-        "15_singapore": {
+        "16_singapore": {
             "TECH TALK - Singapore": "https://f1tv.formula1.com/en/episode/tech-talk-2019-singapore",
             "JOLYON PALMER'S ANALYSIS - Singapore": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-singapore",
             "Weekend Debrief Singapore": "https://f1tv.formula1.com/en/episode/weekend-debrief-singapore",
@@ -564,7 +541,7 @@
             "Singapore Practice 2": "https://f1tv.formula1.com/en/archive/2019/singapore-grand-prix/2019-singapore-grand-prix-practice-2",
             "Singapore Practice 1": "https://f1tv.formula1.com/en/archive/2019/singapore-grand-prix/2019-singapore-grand-prix-practice-1"
         },
-        "16_russian": {
+        "17_russian": {
             "TECH TALK - Russia": "https://f1tv.formula1.com/en/episode/tech-talk-2019-russia",
             "JOLYON PALMER'S ANALYSIS - Russia": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-russia",
             "Weekend Debrief - Russia": "https://f1tv.formula1.com/en/episode/weekend-debrief-russia",
@@ -603,10 +580,10 @@
             "Russian Federation F2 Practice": "https://f1tv.formula1.com/en/archive/2019/russian-grand-prix/2019-russian-grand-prix-f2-practice",
             "Russian Federation F3 Practice": "https://f1tv.formula1.com/en/archive/2019/russian-grand-prix/2019-russian-grand-prix-f3-practice"
         },
-        "17_japanese": {
+        "18_japanese": {
             "JOLYON PALMER'S ANALYSIS - Japan": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-japan",
             "WEEKEND DEBRIEF - Japan": "https://f1tv.formula1.com/en/episode/weekend-debrief-japan",
-            "PADDOCK PASS:  Post race - Japan": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-japan",
+            "PADDOCK PASS: Post race - Japan": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-japan",
             "RACE HIGHLIGHTS - Japan": "https://f1tv.formula1.com/en/episode/race-highlights-japan",
             "#F1Live - Japan": "https://f1tv.formula1.com/en/episode/f1live-japan",
             "FIA Post-Race Press Conference - Japan": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-japan",
@@ -615,13 +592,13 @@
             "PRACTICE 2 HIGHLIGHTS - Japan": "https://f1tv.formula1.com/en/episode/practice-2-highlights-japan",
             "FIA Friday Press Conference - Japan": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-japan",
             "PADDOCK PASS: Pre-Race - Japan": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-japan",
-            "FIA  Thursday Press Conference - Japan": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-japan",
+            "FIA Thursday Press Conference - Japan": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-japan",
             "Japan Race": "https://f1tv.formula1.com/en/archive/2019/japanese-grand-prix/2019-japanese-grand-prix-race",
             "Japan Qualifying": "https://f1tv.formula1.com/en/archive/2019/japanese-grand-prix/2019-japanese-grand-prix-qualifying",
             "Japan Practice 2": "https://f1tv.formula1.com/en/archive/2019/japanese-grand-prix/2019-japanese-grand-prix-practice-2",
             "Japan Practice 1": "https://f1tv.formula1.com/en/archive/2019/japanese-grand-prix/2019-japanese-grand-prix-practice-1"
         },
-        "18_mexican": {
+        "19_mexican": {
             "TECH TALK - Mexico": "https://f1tv.formula1.com/en/episode/tech-talk-2019-mexico",
             "JOLYON PALMER'S ANALYSIS - Mexico": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-mexico",
             "PORSCHE SUPERCUP HIGHLIGHTS - Mexico": "https://f1tv.formula1.com/en/episode/porsche-supercup-highlights-mexico",
@@ -630,7 +607,7 @@
             "RACE HIGHLIGHTS - Mexico": "https://f1tv.formula1.com/en/episode/race-highlights-mexico-2019",
             "FIA Post-Race Press Conference - Mexico": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-mexico",
             "RACE DAY BREAKFAST - Mexico": "https://f1tv.formula1.com/en/episode/race-day-breakfast-mexico",
-            "PADDOCK PASS:  Post Qualifying - Mexico": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-mexico",
+            "PADDOCK PASS: Post Qualifying - Mexico": "https://f1tv.formula1.com/en/episode/paddock-pass-post-qualifying-mexico",
             "QUALIFYING HIGHLIGHTS - Mexico": "https://f1tv.formula1.com/en/episode/qualifying-highlights-mexico",
             "FIA Post-Qualifying Press Conference - Mexico": "https://f1tv.formula1.com/en/episode/fia-post-qualifying-press-conference-mexico",
             "PRACTICE 3 HIGHLIGHTS - Mexico": "https://f1tv.formula1.com/en/episode/practice-3-highlights-mexico",
@@ -647,7 +624,7 @@
             "Mexico F1 Practice 2": "https://f1tv.formula1.com/en/archive/2019/mexican-grand-prix/2019-mexican-grand-prix-practice-2",
             "Mexico F1 Practice 1": "https://f1tv.formula1.com/en/archive/2019/mexican-grand-prix/2019-mexican-grand-prix-practice-1"
         },
-        "19_united states": {
+        "20_united states": {
             "TECH TALK - USA": "https://f1tv.formula1.com/en/episode/tech-talk-2019-usa",
             "JOLYON PALMER'S ANALYSIS - United States": "https://f1tv.formula1.com/en/episode/palmer-analysis-usa-f1tv",
             "Gasly & Kvyat's tour of NASA's Houston HQ, F1 Originals": "https://f1tv.formula1.com/en/episode/gasly-kvyats-tour-of-nasas-houston-hq-f1-originals",
@@ -667,25 +644,13 @@
             "PRACTICE 2 HIGHLIGHTS - United States": "https://f1tv.formula1.com/en/episode/practice-2-highlights-united-states",
             "FIA Friday Press Conference - United States": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-united-states",
             "PRACTICE 1 HIGHLIGHTS - United States": "https://f1tv.formula1.com/en/episode/practice-1-highlights-united-states",
-            "PADDOCK PASS:  Pre-race - United States": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-usa",
-            "FIA  Thursday Press Conference - USA": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-usa",
-            "2021 Regulations - Press Conference": "https://f1tv.formula1.com/en/episode/2021-regulations-press-conference",
-            "2021 Regulations - The Cost Cap Explained": "https://f1tv.formula1.com/en/episode/2021-regulations-the-cost-cap-explained",
-            "2021 Regulations - How The Car Was Developed": "https://f1tv.formula1.com/en/episode/2021-regulations-how-the-car-was-developed",
-            "2021 Regulations - Everything You Need To Know": "https://f1tv.formula1.com/en/episode/2021-regulations-everything-you-need-to-know",
-            "2021 Regulations - Nikolas Tombazis": "https://f1tv.formula1.com/en/episode/2021-regulations-nikolas-tombazis",
-            "2021 Regulations - Michael Masi": "https://f1tv.formula1.com/en/episode/2021-regulations-michael-masi",
-            "2021 Regulations - Pat Symonds": "https://f1tv.formula1.com/en/episode/2021-regulations-pat-symonds",
-            "2021 Regulations - The New Era Is Here": "https://f1tv.formula1.com/en/episode/2021-regulations-the-new-era-is-here",
-            "2021 Regulations - Jean Todt": "https://f1tv.formula1.com/en/episode/2021-regulations-jean-todt",
-            "2021 Regulations - Ross Brawn": "https://f1tv.formula1.com/en/episode/2021-regulations-ross-brawn",
             "United States Race": "https://f1tv.formula1.com/en/archive/2019/united-states-grand-prix/2019-united-states-grand-prix-race",
             "United States Qualifying": "https://f1tv.formula1.com/en/archive/2019/united-states-grand-prix/2019-united-states-grand-prix-qualifying",
             "United States Practice 3": "https://f1tv.formula1.com/en/archive/2019/united-states-grand-prix/2019-united-states-grand-prix-practice-3",
             "United States Practice 2": "https://f1tv.formula1.com/en/archive/2019/united-states-grand-prix/2019-united-states-grand-prix-practice-2",
             "United States Practice 1": "https://f1tv.formula1.com/en/archive/2019/united-states-grand-prix/2019-united-states-grand-prix-practice-1"
         },
-        "20_brazilian": {
+        "21_brazilian": {
             "All Access - Episode 6: Alex Albon": "https://f1tv.formula1.com/en/episode/all-access-episode-6-alex-albon",
             "TECH TALK - Brazil": "https://f1tv.formula1.com/en/episode/tech-talk-2019-brazil",
             "JOLYON PALMER'S ANALYSIS - Brazil": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-brazil",
@@ -701,7 +666,7 @@
             "PRACTICE 2 HIGHLIGHTS - Brazil": "https://f1tv.formula1.com/en/episode/practice-2-highlights-brazil",
             "FIA Friday Press Conference - Brazil": "https://f1tv.formula1.com/en/episode/fia-friday-press-conference-brazil",
             "PRACTICE 1 HIGHLIGHTS - Brazil": "https://f1tv.formula1.com/en/episode/practice-1-highlights-brazil",
-            "PADDOCK PASS:  Pre-race - Brazil": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-brazil",
+            "PADDOCK PASS: Pre-race - Brazil": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-brazil",
             "FIA Thursday Press Conference - Brazil": "https://f1tv.formula1.com/en/episode/fia-thursday-press-conference-brazil",
             "Brazil Race": "https://f1tv.formula1.com/en/archive/2019/brazilian-grand-prix/2019-brazilian-grand-prix-race",
             "Brazil Qualifying": "https://f1tv.formula1.com/en/archive/2019/brazilian-grand-prix/2019-brazilian-grand-prix-qualifying",
@@ -709,12 +674,12 @@
             "Brazil Practice 2": "https://f1tv.formula1.com/en/archive/2019/brazilian-grand-prix/2019-brazilian-grand-prix-practice-2",
             "Brazil Practice 1": "https://f1tv.formula1.com/en/archive/2019/brazilian-grand-prix/2019-brazilian-grand-prix-practice-1"
         },
-        "21_abu dhabi": {
+        "22_abu dhabi": {
             "TECH TALK - Abu Dhabi": "https://f1tv.formula1.com/en/episode/tech-talk-2019-abu-dhabi",
             "WEEKEND DEBRIEF - Abu Dhabi": "https://f1tv.formula1.com/en/episode/weekend-debrief-abu-dhabi",
             "JOLYON PALMER'S ANALYSIS - Abu Dhabi": "https://f1tv.formula1.com/en/episode/jolyon-palmers-analysis-abu-dhabi",
-            "PADDOCK PASS:  Post race - Abu Dhabi": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-abu-dhabi",
-            "#F1Live  - Abu Dhabi": "https://f1tv.formula1.com/en/episode/f1live-abu-dhabi",
+            "PADDOCK PASS: Post race - Abu Dhabi": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-abu-dhabi",
+            "#F1Live - Abu Dhabi": "https://f1tv.formula1.com/en/episode/f1live-abu-dhabi",
             "RACE HIGHLIGHTS - Abu Dhabi": "https://f1tv.formula1.com/en/episode/race-highlights-abu-dhabi",
             "RACE IN 30 - Abu Dhabi": "https://f1tv.formula1.com/en/episode/race-in-30-abu-dhabi",
             "FIA Post-Race Press Conference - Abu Dhabi": "https://f1tv.formula1.com/en/episode/fia-post-race-press-conference-abu-dhabi",
@@ -729,10 +694,6 @@
             "F1 in Schools 2019": "https://f1tv.formula1.com/en/episode/f1-in-schools-2019",
             "F2: Post Qualifying Press Conference - Abu Dhabi": "https://f1tv.formula1.com/en/episode/f2-post-qualifying-press-conference-abu-dhabi",
             "PRACTICE 2 HIGHLIGHTS - Abu Dhabi": "https://f1tv.formula1.com/en/episode/practice-2-highlights-abu-dhabi",
-            "PRACTICE 1 HIGHLIGHTS - Abu Dhabi": "https://f1tv.formula1.com/en/episode/practice-1-highlights-abu-dhabi",
-            "An interview with Nico Hulkenberg": "https://f1tv.formula1.com/en/episode/an-interview-with-nico-hulkenberg",
-            "PADDOCK PASS: Pre-race - Abu Dhabi": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-abu-dhabi",
-            "FIA Pre-Race Press Conference - Abu Dhabi": "https://f1tv.formula1.com/en/episode/fia-pre-race-press-conference-abu-dhabi",
             "United Arab Emirates Race": "https://f1tv.formula1.com/en/archive/2019/abu-dhabi-grand-prix/2019-abu-dhabi-grand-prix-race",
             "United Arab Emirates F2 Sprint Race": "https://f1tv.formula1.com/en/archive/2019/abu-dhabi-grand-prix/2019-abu-dhabi-f2-sprint",
             "United Arab Emirates F2 Feature Race": "https://f1tv.formula1.com/en/archive/2019/abu-dhabi-grand-prix/2019-abu-dhabi-f2-feature",
@@ -889,7 +850,7 @@
             "Paddock Pass: Pre-race in Great Britain": "https://f1tv.formula1.com/en/episode/paddock-pass-pre-race-in-great-britain"
         },
         "11_german": {
-            "INSIDE TRACKS: Germany 2018": "https://f1tv.formula1.com/en/episode/inside-track-2018-german-grand-prix",
+            "INSIDE TRACK: Germany 2018": "https://f1tv.formula1.com/en/episode/inside-track-2018-german-grand-prix",
             "2018 German Grand Prix - Porsche Mobil 1 Supercup Highlights": "https://f1tv.formula1.com/en/episode/2018-german-grand-prix-porsche-mobil-1-supercup-highlights",
             "2018 German Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/2018-german-grand-prix-race-highlights",
             "Paddock Pass: Post-race in Germany": "https://f1tv.formula1.com/en/episode/paddock-pass-post-race-in-germany",
@@ -1242,7 +1203,7 @@
         },
         "20_brazilian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2016-brazilian-grnad-prix",
-            "2016 in Review - Brazil": "https://f1tv.formula1.com/en/episode/2016-in-review-brazil"
+            "2016 Brazilian Grand Prix - Best Onboards": "https://f1tv.formula1.com/en/episode/2016-brazilian-grand-prix-best-onboards"
         },
         "21_abu dhabi": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2016-abu-dhabi-grand-prix",
@@ -1466,7 +1427,7 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2013-japanese-grand-prix",
             "2013 in Review - Japan": "https://f1tv.formula1.com/en/episode/2013-in-review-japan"
         },
-        "16_indian ": {
+        "16_indian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2013-indian-grand-prix",
             "2013 in Review - India": "https://f1tv.formula1.com/en/episode/2013-in-review-india"
         },
@@ -1484,7 +1445,7 @@
         }
     },
     "2012": {
-        "1_australian ": {
+        "1_australian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-australian-grand-prix",
             "2012 in Review - Australia": "https://f1tv.formula1.com/en/episode/2012-in-review-australia"
         },
@@ -1492,11 +1453,11 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-malaysian-grand-prix",
             "2012 in Review - Malaysia": "https://f1tv.formula1.com/en/episode/2012-in-review-malaysia"
         },
-        "3_chinese ": {
+        "3_chinese": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-chinese-grand-prix",
             "2012 in Review - China": "https://f1tv.formula1.com/en/episode/2012-in-review-china"
         },
-        "4_bahrain ": {
+        "4_bahrain": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-bahrain-grand-prix",
             "2012 in Review - Bahrain": "https://f1tv.formula1.com/en/episode/2012-in-review-bahrain"
         },
@@ -1528,34 +1489,34 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-hungarian-grand-prix",
             "2012 in Review - Hungary": "https://f1tv.formula1.com/en/episode/2012-in-review-hungary"
         },
-        "12_belgian ": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2012-belgian-grand-prix-full-race",
+        "12_belgian": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2012-belgian-grand-prix",
             "2012 in Review - Belgium": "https://f1tv.formula1.com/en/episode/2012-in-review-belgium"
         },
         "13_italian": {
             "2012 in Review - Italy": "https://f1tv.formula1.com/en/episode/2012-in-review-italy"
         },
-        "14_singapore ": {
+        "14_singapore": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-singapore-grand-prix",
             "2012 in Review - Singapore": "https://f1tv.formula1.com/en/episode/2012-in-review-singapore"
         },
-        "15_japanese ": {
+        "15_japanese": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-japanese-grand-prix",
             "2012 in Review - Japan": "https://f1tv.formula1.com/en/episode/2012-in-review-japan"
         },
-        "16_korean ": {
+        "16_korean": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-korean-grand-prix",
             "2012 in Review - Korea": "https://f1tv.formula1.com/en/episode/2012-in-review-korea"
         },
-        "17_indian ": {
+        "17_indian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-indian-grand-prix",
             "2012 in Review - India": "https://f1tv.formula1.com/en/episode/2012-in-review-india"
         },
-        "18_abu dhabi ": {
+        "18_abu dhabi": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-abu-dhabi-grand-prix",
             "2012 in Review - Abu Dhabi": "https://f1tv.formula1.com/en/episode/2012-in-review-abu-dhabi"
         },
-        "19_united states ": {
+        "19_united states": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2012-us-grand-prix",
             "2012 in Review - Austin": "https://f1tv.formula1.com/en/episode/2012-in-review-austin"
         },
@@ -1565,7 +1526,7 @@
         }
     },
     "2011": {
-        "1_turkish ": {
+        "1_turkish": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-turkish-grand-prix",
             "2011 in Review - Turkey": "https://f1tv.formula1.com/en/episode/2011-in-review-turkey"
         },
@@ -1573,10 +1534,10 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-malaysian-grand-prix",
             "2011 in Review - Malaysia": "https://f1tv.formula1.com/en/episode/2011-in-review-malaysia"
         },
-        "3_australian ": {
+        "3_australian": {
             "2011 in Review - Australia": "https://f1tv.formula1.com/en/episode/2011-in-review-australia"
         },
-        "4_chinese ": {
+        "4_chinese": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-chinese-grand-prix",
             "2011 in Review - China": "https://f1tv.formula1.com/en/episode/2011-in-review-china"
         },
@@ -1593,10 +1554,10 @@
             "2011 in Review - Canada": "https://f1tv.formula1.com/en/episode/2011-in-review-canada"
         },
         "8_european": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2011-europe-grand-prix",
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-european-grand-prix",
             "2011 in Review - Europe": "https://f1tv.formula1.com/en/episode/2011-in-review-europe"
         },
-        "9_british ": {
+        "9_british": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-british-grand-prix",
             "2011 in Review - Britain": "https://f1tv.formula1.com/en/episode/2011-in-review-britain"
         },
@@ -1608,7 +1569,7 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-hungarian-grand-prix",
             "2011 in Review - Hungary": "https://f1tv.formula1.com/en/episode/2011-in-review-hungary"
         },
-        "12_belgian ": {
+        "12_belgian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-belgian-grand-prix",
             "2011 in Review - Belgium": "https://f1tv.formula1.com/en/episode/2011-in-review-belgium"
         },
@@ -1616,22 +1577,22 @@
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-italian-grand-prix",
             "2011 in Review - Italy": "https://f1tv.formula1.com/en/episode/2011-in-review-italian"
         },
-        "14_singapore ": {
+        "14_singapore": {
             "2011 in Review - Singapore": "https://f1tv.formula1.com/en/episode/2011-in-review-singapore"
         },
-        "15_japanese ": {
+        "15_japanese": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-japanese-grand-prix",
             "2011 in Review - Japan": "https://f1tv.formula1.com/en/episode/2011-in-review-japan"
         },
-        "16_korean ": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2011-skorean-grand-prix",
+        "16_korean": {
+            "Full Race": "https://f1tv.formula1.com/en/episode/2011-korean-grand-prix",
             "2011 in Review - Korea": "https://f1tv.formula1.com/en/episode/2011-in-review-korea"
         },
-        "17_indian ": {
+        "17_indian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-indian-grand-prix",
             "2011 in Review - India": "https://f1tv.formula1.com/en/episode/2011-in-review-india"
         },
-        "18_abu dhabi ": {
+        "18_abu dhabi": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2011-abu-dhabi-grand-prix",
             "2011 in Review - Abu Dhabi": "https://f1tv.formula1.com/en/episode/2011-in-review-abu-dhabi"
         },
@@ -2006,7 +1967,6 @@
             "2005 in Review - Great Britain": "https://f1tv.formula1.com/en/episode/2005-in-review-great-britain"
         },
         "12_german": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/2005-german-gp",
             "2005 in Review - Germany": "https://f1tv.formula1.com/en/episode/2005-in-review-germany"
         },
         "13_hungarian": {
@@ -2266,7 +2226,7 @@
         }
     },
     "2000": {
-        "1_australian ": {
+        "1_australian": {
             "2000 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/2000-australian-grand-prix-highlights"
         },
         "2_brazilian": {
@@ -2275,7 +2235,7 @@
         "3_san marino": {
             "2000 In Review: San Marino Grand Prix": "https://f1tv.formula1.com/en/episode/2000-san-marino-grand-prix-highlights"
         },
-        "4_british ": {
+        "4_british": {
             "2000 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/2000-british-grand-prix-highlights"
         },
         "5_spanish": {
@@ -2305,20 +2265,20 @@
         "12_hungarian": {
             "2000 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/2000-hungarian-grand-prix-highlights"
         },
-        "13_belgian ": {
+        "13_belgian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2000-belgian-grand-prix",
             "2000 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/2000-belgian-grand-prix-highlights"
         },
         "14_italian": {
             "2000 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/2000-italian-grand-prix-highlights"
         },
-        "15_united states ": {
+        "15_united states": {
             "2000 In Review: United States Grand Prix": "https://f1tv.formula1.com/en/episode/2000-united-states-grand-prix-highlights"
         },
-        "16_japanese ": {
+        "16_japanese": {
             "Full Race": "https://f1tv.formula1.com/en/episode/2000-japanese-grand-prix"
         },
-        "17_malaysian ": {
+        "17_malaysian": {
             "2000 In Review: Malaysian Grand Prix": "https://f1tv.formula1.com/en/episode/2000-malaysian-grand-prix-highlights"
         }
     },
@@ -2428,7 +2388,7 @@
             "1998 in Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/9812-h1-race"
         },
         "13_belgian": {
-            "Full Race": "https://f1tv.formula1.com/en/episode/1998-belgian-grand-prix",
+            "Full Race": "https://f1tv.formula1.com/en/episode/1998-belgian-grand-prix-old",
             "1998 in Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/9813-h1-race"
         },
         "14_italian": {
@@ -2663,7 +2623,7 @@
             "1994 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/1994-japanese-grand-prix-highlights"
         },
         "16_australian": {
-            "1994 In Review:  Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1994-australian-grand-prix-highlights",
+            "1994 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1994-australian-grand-prix-highlights",
             "1994 Australian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1994-australian-grand-prix-extended-highlights"
         }
     },
@@ -2748,36 +2708,20 @@
         "7_canadian": {
             "1992 In Review: Canadian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-canadian-grand-prix-highlights"
         },
-        "8_french": {
-            "1992 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1992-french-grand-prix-highlights"
-        },
-        "9_british": {
+        "8_british": {
             "1992 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1992-british-grand-prix-highlights",
             "1992 British Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1992-british-grand-prix-highlights-extended-highlights"
         },
-        "10_german": {
+        "9_german": {
             "1992 In Review: German Grand Prix": "https://f1tv.formula1.com/en/episode/1992-german-grand-prix-highlights",
             "1992 German Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1992-german-grand-prix-extended-highlights"
         },
-        "11_hungarian": {
+        "10_hungarian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/1992-hungarian-grand-prix",
             "1992 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-hungarian-grand-prix-highlights"
         },
-        "12_belgian": {
-            "1992 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-belgian-grand-prix-highlights"
-        },
-        "13_italian": {
-            "1992 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-italian-grand-prix-highlights"
-        },
-        "14_portuguese": {
+        "11_portuguese": {
             "1992 In Review: Portuguese Grand Prix": "https://f1tv.formula1.com/en/episode/1992-portuguese-grand-prix-highlights"
-        },
-        "15_japanese": {
-            "1992 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/1992-japanese-grand-prix-highlights"
-        },
-        "16_australian": {
-            "1992 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1992-australian-grand-prix-highlights",
-            "1992 Australian Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1992-australian-grand-prix-extended-highlights"
         }
     },
     "1991": {
@@ -2836,7 +2780,7 @@
         }
     },
     "1990": {
-        "1_united states ": {
+        "1_united states": {
             "1990 In Review: United States Grand Prix": "https://f1tv.formula1.com/en/episode/1990-united-states-grand-prix-highlights",
             "1990 US Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1990-us-grand-prix-extended-highlights"
         },
@@ -2860,7 +2804,7 @@
         "7_french": {
             "1990 In Review: French Grand Prix": "https://f1tv.formula1.com/en/episode/1990-french-grand-prix-highlights"
         },
-        "8_british ": {
+        "8_british": {
             "1990 In Review: British Grand Prix": "https://f1tv.formula1.com/en/episode/1990-british-grand-prix-highlights"
         },
         "9_german": {
@@ -2869,7 +2813,7 @@
         "10_hungarian": {
             "1990 In Review: Hungarian Grand Prix": "https://f1tv.formula1.com/en/episode/1990-hungarian-grand-prix-highlights"
         },
-        "11_belgian ": {
+        "11_belgian": {
             "1990 In Review: Belgian Grand Prix": "https://f1tv.formula1.com/en/episode/1990-belgian-grand-prix-highlights"
         },
         "12_italian": {
@@ -2881,11 +2825,11 @@
         "14_spanish": {
             "1990 In Review: Spanish Grand Prix": "https://f1tv.formula1.com/en/episode/1990-spanish-grand-prix-highlights"
         },
-        "15_japanese ": {
+        "15_japanese": {
             "1990 In Review: Japanese Grand Prix": "https://f1tv.formula1.com/en/episode/1990-japanese-grand-prix-highlights",
             "1990 Japanese Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1990-japanese-grand-prix-extended-highlights"
         },
-        "16_australian ": {
+        "16_australian": {
             "Full Race": "https://f1tv.formula1.com/en/episode/1990-australian-grand-prix",
             "1990 In Review: Australian Grand Prix": "https://f1tv.formula1.com/en/episode/1990-australian-grand-prix-highlights"
         }
@@ -3148,8 +3092,7 @@
             "1985 In Review: Austrian Grand Prix": "https://f1tv.formula1.com/en/episode/1985-austrian"
         },
         "11_dutch": {
-            "1985 In Review: Dutch Grand Prix": "https://f1tv.formula1.com/en/episode/1985-dutch-grand-prix-highlights",
-            "1985 Dutch Grand Prix - Highlights": "https://f1tv.formula1.com/en/episode/1985-dutch-gp-extended-highlights"
+            "1985 In Review: Dutch Grand Prix": "https://f1tv.formula1.com/en/episode/1985-dutch-grand-prix-highlights"
         },
         "12_italian": {
             "1985 In Review: Italian Grand Prix": "https://f1tv.formula1.com/en/episode/1985-italian-grand-prix-highlights"

@@ -22,7 +22,7 @@ def process_replays(html_replay, p_driver=None):
         replays = p_driver.find_elements_by_class_name(html_replay["html_class_name"])
     for replay in replays:
         m_url = replay.get_attribute("href")
-        m_session = replay.find_element_by_tag_name(html_replay["heading_tag"]).text
+        m_session = replay.find_element_by_tag_name(html_replay["heading_tag"]).get_attribute("textContent")
         if m_session:
             print_green("session found: " + m_session)
             ALL_RACES[str_year][str_gp][m_session] = m_url
@@ -100,7 +100,7 @@ except:
 
 html_btn_season_select = WebDriverWait(DRIVER, 10).until(lambda d: d.find_element_by_class_name(HTMLATTR_SEASON_SELECT))
 html_btn_season_select.click()
-print_green("Selected year: " + html_btn_season_select.text)
+print_green("Selected year: " + html_btn_season_select.get_attribute("textContent"))
 
 html_btns_year_select = WebDriverWait(DRIVER, 10).until(lambda d: d.find_elements_by_class_name(HTMLATTR_YEAR_SELECT_BTN))
 
@@ -108,13 +108,16 @@ sleep_anim(1)
 for year_button in html_btns_year_select[:]:
     if year_button.get_attribute("disabled") != None:
         html_btns_year_select.remove(year_button)
-        print_yellow("removed " + year_button.text + ": not clickable")
-print_green("Found " + str(len(html_btns_year_select)) + " year select buttons. (" + html_btns_year_select[0].text + " - " + html_btns_year_select[-1].text + ")")
+        print_yellow("removed " + year_button.get_attribute("textContent") + ": not clickable")
+print_green("Found " + str(len(html_btns_year_select)) + " year select buttons. (" + html_btns_year_select[0].get_attribute("textContent") + " - " + html_btns_year_select[-1].get_attribute("textContent") + ")")
 
 # Main loop: Choose year -> Process GP elements in year -> Choose next year
 ALL_RACES = {}
 for year_button in html_btns_year_select:
-    str_year = year_button.text
+    str_year = year_button.get_attribute("textContent")
+    if str_year == "":
+        print_red("Empty str_year!")
+        raise Exception
     ALL_RACES[str_year] = {}
     sleep(0.5)
 
@@ -136,14 +139,14 @@ for year_button in html_btns_year_select:
         try:
             elem = element.find_element_by_class_name(HTMLATTR_GP_ELEM_BIG)
             order_counter += 1
-            print_green("GP: " + elem.text)
+            print_green("GP: " + elem.get_attribute("textContent"))
             elem_mode = "big"
             print_green("processing big element")
         except:
             try:
                 elem = element.find_element_by_class_name(HTMLATTR_GP_ELEM_SMALL)
                 order_counter += 1
-                print_green("GP: " + elem.text)
+                print_green("GP: " + elem.get_attribute("textContent"))
                 elem_mode = "small"
                 print_green("processing small element")
             except:
@@ -151,7 +154,7 @@ for year_button in html_btns_year_select:
                 continue
         
         # Get clean location name. If it's pre-season testing, the order value should be 0
-        str_location = elem.text.replace(" Grand Prix","").lower()
+        str_location = elem.get_attribute("textContent").replace(" Grand Prix","").lower()
         if "testing" in str_location:
             order_counter = 0
 
