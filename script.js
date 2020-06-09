@@ -103,7 +103,6 @@ function copyLink() {
 }
 
 function saveState() {
-    console.log("saved state");
     localStorage.clear();
     localStorage.setItem("saved_year_index", year_dropdown.selectedIndex);
     localStorage.setItem("saved_gp_index", loc_dropdown.selectedIndex);
@@ -111,13 +110,9 @@ function saveState() {
 }
 
 function loadState() {
-    console.log("loaded state");
     saved_year_index = localStorage.getItem("saved_year_index");
-    console.log(saved_year_index);
     saved_gp_index = localStorage.getItem("saved_gp_index");
-    console.log(saved_gp_index);
     saved_session_index = localStorage.getItem("saved_session_index");
-    console.log(saved_session_index);
 
     year_dropdown.selectedIndex = saved_year_index;
     refreshGP();
