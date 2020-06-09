@@ -23,23 +23,20 @@ function buildPage() {
         year_dropdown.appendChild(option)
     }
 
-    
-    refreshGP();
-    refreshSessions();
     loadState();
     updateLink();
 };
 
 function refreshGP() {
-    year_locations = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value];
-    loc_dropdown = document.getElementById("loc_dropdown");
-    loc_dropdown.innerHTML = '';
-    for (i = 0; i < Object.keys(year_locations).length; i++) {
-        var location = Object.keys(year_locations)[i];
+    year_gps = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value];
+    gp_dropdown = document.getElementById("gp_dropdown");
+    gp_dropdown.innerHTML = '';
+    for (i = 0; i < Object.keys(year_gps).length; i++) {
+        var gp = Object.keys(year_gps)[i];
         option = document.createElement("option");
-        option.setAttribute("value", location);
-        var str = location.split("_")[1];
-        var num = location.split("_")[0];
+        option.setAttribute("value", gp);
+        var str = gp.split("_")[1];
+        var num = gp.split("_")[0];
         var finalStr = "";
         var splitstr = str.split(" ");
         for (var substr in splitstr) {
@@ -52,7 +49,7 @@ function refreshGP() {
         }
         finalStr = num + ": " +finalStr.slice(0, -2);
         option.innerHTML = finalStr;
-        loc_dropdown.appendChild(option);
+        gp_dropdown.appendChild(option);
     }
     refreshSessions();
 }
@@ -73,21 +70,21 @@ function refreshSessions() {
             filters[i] = options[i]
         }
     }
-    location_sessions = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][loc_dropdown.options[loc_dropdown.selectedIndex].value];
+    sessions_in_gp = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][gp_dropdown.options[gp_dropdown.selectedIndex].value];
     session_dropdown = document.getElementById("session_dropdown");
     session_dropdown.innerHTML = '';
 
     outerloop:
-    for (i = Object.keys(location_sessions).length-1; i >= 0; i--) {
+    for (i = Object.keys(sessions_in_gp).length-1; i >= 0; i--) {
         for (j = 0; j < filters.length;j++){
-            if (Object.keys(location_sessions)[i].toLowerCase().includes(filters[j])) {
-                console.log("Removed '", Object.keys(location_sessions)[i], "' based on filters");
+            if (Object.keys(sessions_in_gp)[i].toLowerCase().includes(filters[j])) {
+                console.log("Removed '", Object.keys(sessions_in_gp)[i], "' based on filters");
                 continue outerloop;
             }
         }
         option = document.createElement("option");
-        option.setAttribute("value", Object.values(location_sessions)[i]);
-        option.innerHTML = Object.keys(location_sessions)[i];
+        option.setAttribute("value", Object.values(sessions_in_gp)[i]);
+        option.innerHTML = Object.keys(sessions_in_gp)[i];
         session_dropdown.appendChild(option);
     }
 
@@ -105,7 +102,7 @@ function copyLink() {
 function saveState() {
     localStorage.clear();
     localStorage.setItem("saved_year_index", year_dropdown.selectedIndex);
-    localStorage.setItem("saved_gp_index", loc_dropdown.selectedIndex);
+    localStorage.setItem("saved_gp_index", gp_dropdown.selectedIndex);
     localStorage.setItem("saved_session_index", session_dropdown.selectedIndex);
 }
 
@@ -116,7 +113,7 @@ function loadState() {
 
     year_dropdown.selectedIndex = saved_year_index;
     refreshGP();
-    loc_dropdown.selectedIndex = saved_gp_index;
+    gp_dropdown.selectedIndex = saved_gp_index;
     refreshSessions();
     session_dropdown.selectedIndex = saved_session_index;
     saveState();
@@ -130,8 +127,8 @@ function changeSelection(whichSelectMenu, byHowMuch) {
         }
     }
     if (whichSelectMenu == "gp") {
-        if (loc_dropdown.options[loc_dropdown.selectedIndex + byHowMuch] != undefined) {
-            loc_dropdown.selectedIndex = loc_dropdown.selectedIndex + byHowMuch;
+        if (gp_dropdown.options[gp_dropdown.selectedIndex + byHowMuch] != undefined) {
+            gp_dropdown.selectedIndex = gp_dropdown.selectedIndex + byHowMuch;
             refreshSessions();
         }
     }
