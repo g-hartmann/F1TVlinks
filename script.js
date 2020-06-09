@@ -23,6 +23,7 @@ function buildPage() {
         year_dropdown.appendChild(option)
     }
 
+    loadState();
     refreshGP();
     refreshSessions();
     updateLink();
@@ -38,17 +39,17 @@ function refreshGP() {
         option.setAttribute("value", location);
         var str = location.split("_")[1];
         var num = location.split("_")[0];
-        var finalStr = ""
-        var splitstr = str.split(" ")
+        var finalStr = "";
+        var splitstr = str.split(" ");
         for (var substr in splitstr) {
-            finalStr = finalStr + splitstr[substr][0].toUpperCase() + splitstr[substr].slice(1, 999) + " "
+            finalStr = finalStr + splitstr[substr][0].toUpperCase() + splitstr[substr].slice(1, 999) + " ";
         }
-        splitstr = finalStr.split("-")
-        finalStr = ""
+        splitstr = finalStr.split("-");
+        finalStr = "";
         for (var substr in splitstr) {
-            finalStr = finalStr + splitstr[substr][0].toUpperCase() + splitstr[substr].slice(1, 999) + "-"
+            finalStr = finalStr + splitstr[substr][0].toUpperCase() + splitstr[substr].slice(1, 999) + "-";
         }
-        finalStr = num + ": " +finalStr.slice(0, -2)
+        finalStr = num + ": " +finalStr.slice(0, -2);
         option.innerHTML = finalStr;
         loc_dropdown.appendChild(option);
     }
@@ -75,6 +76,7 @@ function refreshSessions() {
     location_sessions = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][loc_dropdown.options[loc_dropdown.selectedIndex].value];
     session_dropdown = document.getElementById("session_dropdown");
     session_dropdown.innerHTML = '';
+
     outerloop:
     for (i = Object.keys(location_sessions).length-1; i >= 0; i--) {
         for (j = 0; j < filters.length;j++){
@@ -88,15 +90,32 @@ function refreshSessions() {
         option.innerHTML = Object.keys(location_sessions)[i];
         session_dropdown.appendChild(option);
     }
+
+    saveState();
 }
 
 function updateLink() {
-    
-    final_link = session_dropdown.options[session_dropdown.selectedIndex].value
-    
+    final_link = session_dropdown.options[session_dropdown.selectedIndex].value;
 }
 
 function copyLink() {
     copyToClipboard(final_link);
 }
 
+function saveState() {
+    localStorage.clear();
+    localStorage.setItem("saved_year_index", year_dropdown.selectedIndex);
+    localStorage.setItem("saved_gp_index", loc_dropdown.selectedIndex);
+    localStorage.setItem("saved_session_index", session_dropdown.selectedIndex);
+}
+
+function loadState() {
+
+    saved_year_index = localStorage.getItem("saved_year_index");
+    saved_gp_index = localStorage.getItem("saved_gp_index");
+    saved_session_index = localStorage.getItem("saved_session_index");
+
+    year_dropdown.selectedIndex = saved_year_index;
+    loc_dropdown.selectedIndex = saved_gp_index;
+    session_dropdown.selectedIndex = saved_session_index;
+}
