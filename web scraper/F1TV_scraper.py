@@ -8,6 +8,7 @@ import colorama
 
 colorama.init()
 
+
 def sleep_anim(sec):
     if sec >= 1:
         for i in range(int(sec)):
@@ -15,14 +16,15 @@ def sleep_anim(sec):
             sleep(1)
         print()
 
+
 def process_replays(html_replay, p_driver=None):
-    if p_driver == None:
+    if p_driver is None:
         replays = element.find_elements_by_class_name(html_replay["html_class_name"])
     else:
         replays = p_driver.find_elements_by_class_name(html_replay["html_class_name"])
-    for replay in replays:
-        m_url = replay.get_attribute("href")
-        m_session = replay.find_element_by_tag_name(html_replay["heading_tag"]).get_attribute("textContent")
+    for m_replay in replays:
+        m_url = m_replay.get_attribute("href")
+        m_session = m_replay.find_element_by_tag_name(html_replay["heading_tag"]).get_attribute("textContent")
         if m_session:
             print_green("session found: " + m_session)
             ALL_RACES[str_year][str_gp][m_session] = m_url
@@ -30,9 +32,11 @@ def process_replays(html_replay, p_driver=None):
         print_green("completed replay")
         print()
 
+
 def add_cookies_to_driver(p_driver):
     for cookie in COOKIES:
         p_driver.add_cookie(cookie)
+
 
 def remove_banner(banner_button):
     try:
@@ -42,15 +46,18 @@ def remove_banner(banner_button):
         print(e.__str__)
     sleep(0.1)
 
+
 def print_green(string):
     print(colorama.Fore.GREEN, end="")
     print(string)
     print(colorama.Style.RESET_ALL, end="")
 
+
 def print_yellow(string):
     print(colorama.Fore.YELLOW, end="")
     print(string)
     print(colorama.Style.RESET_ALL, end="")
+
 
 def print_red(string):
     print(colorama.Fore.RED, end="")
@@ -80,13 +87,12 @@ options.add_argument("headless")
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 DRIVER = webdriver.Chrome(options=options)
 
-
 DRIVER.get(BASE_URL)
 add_cookies_to_driver(DRIVER)
 DRIVER.get(BASE_URL)
 print_yellow("Make sure you are logged in, then hit enter")
 wait_for_login = input()
-pickle.dump(DRIVER.get_cookies() , open(COOKIE_FILEPATH,"wb"))
+pickle.dump(DRIVER.get_cookies(), open(COOKIE_FILEPATH, "wb"))
 add_cookies_to_driver(DRIVER)
 DRIVER.get(BASE_URL)
 
@@ -94,7 +100,7 @@ remove_banner(HTMLATTR_COOKIE_ACCEPT_BTN)
 remove_banner(HTMLATTR_CONSENT_BTN)
 remove_banner(HTMLATTR_COOKIE_ACCEPT_BTN)
 try:
-    DRIVER.execute_script("return document.getElementById("+HTMLATTR_COOKIE_BANNER+").remove();")
+    DRIVER.execute_script("return document.getElementById(" + HTMLATTR_COOKIE_BANNER + ").remove();")
 except:
     pass
 
@@ -102,14 +108,17 @@ html_btn_season_select = WebDriverWait(DRIVER, 10).until(lambda d: d.find_elemen
 html_btn_season_select.click()
 print_green("Selected year: " + html_btn_season_select.get_attribute("textContent"))
 
-html_btns_year_select = WebDriverWait(DRIVER, 10).until(lambda d: d.find_elements_by_class_name(HTMLATTR_YEAR_SELECT_BTN))
+html_btns_year_select = WebDriverWait(DRIVER, 10).until(
+    lambda d: d.find_elements_by_class_name(HTMLATTR_YEAR_SELECT_BTN))
 
 sleep_anim(1)
 for year_button in html_btns_year_select[:]:
-    if year_button.get_attribute("disabled") != None:
+    if year_button.get_attribute("disabled") is not None:
         html_btns_year_select.remove(year_button)
         print_yellow("removed " + year_button.get_attribute("textContent") + ": not clickable")
-print_green("Found " + str(len(html_btns_year_select)) + " year select buttons. (" + html_btns_year_select[0].get_attribute("textContent") + " - " + html_btns_year_select[-1].get_attribute("textContent") + ")")
+print_green(
+    "Found " + str(len(html_btns_year_select)) + " year select buttons. (" + html_btns_year_select[0].get_attribute(
+        "textContent") + " - " + html_btns_year_select[-1].get_attribute("textContent") + ")")
 
 # Main loop: Choose year -> Process GP elements in year -> Choose next year
 ALL_RACES = {}
@@ -131,9 +140,9 @@ for year_button in html_btns_year_select:
     sleep_anim(6)
     DRIVER.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     sleep_anim(6)
-    
+
     gp_elems = DRIVER.find_elements_by_class_name(HTMLATTR_GP_ELEM_WRAPPER)
-    order_counter = 0  
+    order_counter = 0
     # secondary loop: Evaluate GP element -> process replays in GP element -> Evaluate next GP element
     for element in gp_elems:
         try:
@@ -152,21 +161,21 @@ for year_button in html_btns_year_select:
             except:
                 print_green("No element found, probably wrong content-wrapper - jumping to next content-wrapper...")
                 continue
-        
+
         # Get clean location name. If it's pre-season testing, the order value should be 0
-        str_location = elem.get_attribute("textContent").replace(" Grand Prix","").lower()
+        str_location = elem.get_attribute("textContent").replace(" Grand Prix", "").lower().strip()
         if "testing" in str_location:
             order_counter = 0
 
-        str_gp = str(order_counter)+"_"+str_location
-        
+        str_gp = str(order_counter) + "_" + str_location
+
         ALL_RACES[str_year][str_gp] = {}
         if elem_mode == "big":
             elem_url = elem.find_element_by_xpath("..").get_attribute("href")
-            if elem_url == None: # pre-2018-style replay page. 
+            if elem_url is None:  # pre-2018-style replay page.
                 print_green("GP element has no href")
                 process_replays(HTML_REPLAY_PRE2018)
-            else: # post-2018-style replay page. An auxiliary webdriver has to be opened.
+            else:  # post-2018-style replay page. An auxiliary webdriver has to be opened.
                 print_green("GP element has href: " + elem_url)
                 print_green("Opening auxiliary driver")
                 aux_driver = webdriver.Chrome(options=options)
@@ -178,10 +187,10 @@ for year_button in html_btns_year_select:
                 aux_driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 print_green("scrolled down...")
                 sleep_anim(4)
-                
+
                 # Find and click all "View more"-buttons.
                 btnFound = True
-                while btnFound == True:
+                while btnFound:
                     try:
                         viewmore_button = aux_driver.find_element_by_class_name(HTMLATTR_VIEW_MORE_BTN)
                         print_green("found 'view more' button")
@@ -206,7 +215,6 @@ for year_button in html_btns_year_select:
     print_green("completed year")
     print("\n \n")
     sleep(0.3)
-    
 
 with open(OUTPUT_FILEPATH, 'w') as outfile:
     json.dump(ALL_RACES, outfile)
