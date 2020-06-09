@@ -119,22 +119,22 @@ function loadState() {
     saveState();
 }
 
-function changeSelection(whichSelectMenu, byHowMuch) {
-    if (whichSelectMenu == "year") {
-        if (year_dropdown.options[year_dropdown.selectedIndex + byHowMuch] != undefined) {
-            year_dropdown.selectedIndex = year_dropdown.selectedIndex + byHowMuch;
+function changeSelection(p_which_select_menu, p_by_how_much) {
+    if (p_which_select_menu == "year") {
+        if (year_dropdown.options[year_dropdown.selectedIndex + p_by_how_much] != undefined) {
+            year_dropdown.selectedIndex = year_dropdown.selectedIndex + p_by_how_much;
             refreshGP();
         }
     }
-    if (whichSelectMenu == "gp") {
-        if (gp_dropdown.options[gp_dropdown.selectedIndex + byHowMuch] != undefined) {
-            gp_dropdown.selectedIndex = gp_dropdown.selectedIndex + byHowMuch;
+    if (p_which_select_menu == "gp") {
+        if (gp_dropdown.options[gp_dropdown.selectedIndex + p_by_how_much] != undefined) {
+            gp_dropdown.selectedIndex = gp_dropdown.selectedIndex + p_by_how_much;
             refreshSessions();
         }
     }
-    if (whichSelectMenu == "session") {
-        if (session_dropdown.options[session_dropdown.selectedIndex + byHowMuch] != undefined) {
-            session_dropdown.selectedIndex = session_dropdown.selectedIndex + byHowMuch;
+    if (p_which_select_menu == "session") {
+        if (session_dropdown.options[session_dropdown.selectedIndex + p_by_how_much] != undefined) {
+            session_dropdown.selectedIndex = session_dropdown.selectedIndex + p_by_how_much;
         }
     }
 }
