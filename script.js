@@ -72,7 +72,6 @@ function refreshSessions() {
             filters[i] = options[i]
         }
     }
-    console.log("Filters:", filters)
     location_sessions = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][loc_dropdown.options[loc_dropdown.selectedIndex].value];
     session_dropdown = document.getElementById("session_dropdown");
     session_dropdown.innerHTML = '';
@@ -118,4 +117,24 @@ function loadState() {
     year_dropdown.selectedIndex = saved_year_index;
     loc_dropdown.selectedIndex = saved_gp_index;
     session_dropdown.selectedIndex = saved_session_index;
+}
+
+function changeSelection(whichSelectMenu, byHowMuch) {
+    if (whichSelectMenu == "year") {
+        if (year_dropdown.options[year_dropdown.selectedIndex + byHowMuch] != undefined) {
+            year_dropdown.selectedIndex = year_dropdown.selectedIndex + byHowMuch;
+            refreshGP();
+        }
+    }
+    if (whichSelectMenu == "gp") {
+        if (loc_dropdown.options[loc_dropdown.selectedIndex + byHowMuch] != undefined) {
+            loc_dropdown.selectedIndex = loc_dropdown.selectedIndex + byHowMuch;
+            refreshSessions();
+        }
+    }
+    if (whichSelectMenu == "session") {
+        if (session_dropdown.options[session_dropdown.selectedIndex + byHowMuch] != undefined) {
+            session_dropdown.selectedIndex = session_dropdown.selectedIndex + byHowMuch;
+        }
+    }
 }

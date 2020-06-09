@@ -18,27 +18,33 @@
             <h1 style="color: #fff;">Fast F1 TV links</h1>
         </div>
       </div>
-    <div class="container" style="text-align: center;">
+    <div class="containerr" style="text-align: center;">
         <div class="row" id="items">
             <div class="col-sm-4">
                 <div class="item">
                     <h2>Year</h2>
+                    <i class="arrow left" onclick="changeSelection('year', 1);"></i>
                     <select class="dropdownmenu" id="year_dropdown" onchange="refreshGP(); updateLink();">
                     </select>
+                    <i class="arrow right" onclick="changeSelection('year', -1);"></i>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="item">
                     <h2>Grand Prix</h2>
+                    <i class="arrow left" onclick="changeSelection('gp', -1);"></i>
                     <select class="dropdownmenu" id="loc_dropdown" onchange="refreshSessions(); updateLink();">
                     </select>
+                    <i class="arrow right" onclick="changeSelection('gp', 1);"></i>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="item">
                     <h2>Session</h2>
+                    <i class="arrow left" onclick="changeSelection('session', -1);"></i>
                     <select class="dropdownmenu" id="session_dropdown" onchange="updateLink();">
                     </select>
+                    <i class="arrow right" onclick="changeSelection('session', 1);"></i>
                     <br>
                     <div style="height: 1em;"></div>
                     <span class="chkboxwrap"><input type="checkbox" id="f2-checkbox" class="chkbox" onchange="refreshSessions()"> F2</input></span>

@@ -83,3 +83,29 @@ body {
     transform: skew(20deg);
 
 }
+
+.containerr {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.arrow {
+    border: solid #242433;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+  
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
