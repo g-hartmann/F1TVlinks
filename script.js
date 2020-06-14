@@ -16,6 +16,8 @@ function buildPage() {
     var years = [...Object.getOwnPropertyNames(F1_DATA).reverse()];
 
     year_dropdown = document.getElementById("year_dropdown");
+    gp_dropdown = document.getElementById("gp_dropdown");
+    session_dropdown = document.getElementById("session_dropdown");
     for (i = 0; i < years.length; i++) {
         option = document.createElement("option");
         option.setAttribute("value", years[i]);
@@ -29,7 +31,6 @@ function buildPage() {
 
 function refreshGP() {
     year_gps = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value];
-    gp_dropdown = document.getElementById("gp_dropdown");
     gp_dropdown.innerHTML = '';
     for (i = 0; i < Object.keys(year_gps).length; i++) {
         var gp = Object.keys(year_gps)[i];
@@ -71,7 +72,6 @@ function refreshSessions() {
         }
     }
     sessions_in_gp = F1_DATA[year_dropdown.options[year_dropdown.selectedIndex].value][gp_dropdown.options[gp_dropdown.selectedIndex].value];
-    session_dropdown = document.getElementById("session_dropdown");
     session_dropdown.innerHTML = '';
 
     outerloop:
