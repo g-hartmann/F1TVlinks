@@ -93,7 +93,6 @@ function refreshSessions() {
 
 function updateLink() {
     final_link = session_dropdown.options[session_dropdown.selectedIndex].value;
-    console.log('updated link to ', final_link);
 }
 
 function copyLink() {
