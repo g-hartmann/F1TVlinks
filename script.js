@@ -4,12 +4,22 @@ $.getJSON('data.json', function(f1data) {
 });
 
 const copyToClipboard = str => {
-    const el = document.createElement('textarea');
-    el.value = str;
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
+    if (!navigator.clipboard){
+        const el = document.createElement('textarea');
+        el.value = str;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+    } else {
+        navigator.clipboard.writeText(str).then(
+            function(){
+            })
+        .catch(
+            function() {
+                alert("Couldn't copy URL to clipboard"); // error
+        });
+    }       
 };
 
 function buildPage() {
