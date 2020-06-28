@@ -11,13 +11,14 @@ const copyToClipboard = str => {
         el.select();
         document.execCommand('copy');
         document.body.removeChild(el);
+        console.warn("URL copied to clipboard using obsolete execCommand() function");
     } else {
         navigator.clipboard.writeText(str).then(
             function(){
             })
         .catch(
             function() {
-                alert("Couldn't copy URL to clipboard"); // error
+                console.error("Couldn't copy URL to clipboard"); // error
         });
     }       
 };
